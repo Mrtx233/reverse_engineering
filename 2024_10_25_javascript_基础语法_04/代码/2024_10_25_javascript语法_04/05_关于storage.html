@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // 以前想要在浏览器保存一些数据. 只能通过cookie来保存
+        // cookie非常粗暴. 该网站的所有的http请求都会自动携带cookie值
+        // qiaofu = 10086; => 完全是为了我后面某个js运算的时候需要用到的一个数据
+        // 并不是用来做任何的教研工作的. 但是如果保存在cookie中.
+        // 所有请求都会携带该值..
+
+        // storage 就很好的解决了这个问题
+        // storage是本地存储
+        // localStorage  => 永久的在浏览器中存储一个数据
+        // sessionStorage  => 会话层面的保存一个数据. 如果关闭了浏览器, 重新打开浏览器, 该值丢失
+
+        // localStorage.setItem("qiao", "樵夫很帅, 超级帅");
+        // sessionStorage.setItem("badanmu", "巴旦木很帅");
+
+        // 在浏览器中有三个位置可以存储数据
+        // cookie  每次请求都携带
+        // localStorage  本地永久存储
+        // sessionStorage   会话临时存储
+
+        // var r = localStorage.getItem("qiao");
+        // console.log(r);
+
+        /**
+         * var r = localStorage.getItem('encrypt')
+         * if (!r){
+         *     var r = jiami(明文);
+         *     localStorage.setItem('encrypt', r);
+         * }
+         * 发请求(r);
+         * 有的时候. 上述逻辑. 会阻碍我们逆向
+         *
+         * 我们需要清空浏览器本地存储(所有)(必须记下来)
+         * 找到浏览器中的application -> localStorage -> url -> 右键 -> clear
+         * 找到浏览器中的application -> sessionStorage -> url -> 右键 -> clear
+         * 找到浏览器中的application -> cookie -> url -> 右键 -> clear
+         */
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

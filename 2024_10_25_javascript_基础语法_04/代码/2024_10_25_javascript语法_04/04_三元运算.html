@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // // 三元运算
+        // // 用来简化条件判断
+        // var a = 10;
+        // var b = 20;
+        // if(a > b){
+        //     console.log(a);
+        // } else {
+        //     console.log(b);
+        // }
+        // // 三元运算. 用一句话搞定上述逻辑
+        // var c = a > b ? a : b;
+        // console.log(c);
+        // // x ? y : z
+
+
+        let a = 11;
+        let b = 23;
+        let c = 8;
+        let d = 19;
+
+        let e;
+        let m;
+
+        // e = (e = a > 3 ? b : c, m = e < b++ ? c-- : a = 3 > b % d ? 27: 37, m++);
+        e = a > 3 ? b : c; // e = 23
+        //   false, b = 24
+        m = e < b++ ? c-- : a = 3 > b % d ? 27: 37; //  m = a = 37
+        e = m++; // e = 37, m = 38
+
+        console.log(e);  // 37
+        console.log(c);
+        console.log(m);  // 38
+
+        console.log(b);
+
+        // https://astexplorer.net/ => 可以帮你理解复杂的三运运算的计算过程
+
+        // 休息一下.  21:45继续. 聊storage -> promise
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

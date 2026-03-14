@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+
+        // 检测indexBD
+        function _$cc(_$_m){debugger;}
+        function _$f9(_$_m){console.log('第二个函数, onupgradeneeded');debugger; }
+        function _$ae(_$_m){console.log('第三个函数, onsuccess');debugger; }
+
+        let key = "$_YWTU";
+        ret = sessionStorage.getItem(key);
+        ret = localStorage.getItem(key);
+
+        let op = window.indexedDB.open("haha"); // 相当于创建数据库的时候
+        op.onerror = _$cc;
+        op.onupgradeneeded = _$f9;
+        op.onsuccess = _$ae;
+
+        // indexedDB 浏览器上的一个数据库.
+
+
+
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

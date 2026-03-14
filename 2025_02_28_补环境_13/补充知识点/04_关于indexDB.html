@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+
+        // 检测indexBD
+        function _$cc(_$_m){debugger;}
+        function _$f9(_$_m){console.log('第二个函数, onupgradeneeded');debugger; }
+        function _$ae(_$_m){console.log('第三个函数, onsuccess');debugger; }
+
+        debugger;
+        let key = "$_YWTU";
+        ret = sessionStorage.getItem(key);
+        ret = localStorage.getItem(key);
+
+        let op = window.indexedDB.open("haha");
+        op.onerror = _$cc;
+        op.onupgradeneeded = _$f9;
+        op.onsuccess = _$ae;
+
+        value = "GPDmSIri0D111111T0yikTsyTfnSNqeo0rSwQO8nb3e5NdCl";
+        sessionStorage.setItem(key, value);
+        sessionStorage.setItem('heihei', "123");
+        sessionStorage.setItem('haha', '444');
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

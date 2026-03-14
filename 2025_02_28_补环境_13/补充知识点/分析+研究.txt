@@ -1,0 +1,76 @@
+调用了RegExp函数 函数的返回值是 /[;&]/
+VM415 vm.js:810 从 sessionStorage 获取 getItem 该属性的值是 getItem
+VM415 vm.js:2495 从 Proxy(Storage) {} 中提取 $_YWTU 得到的是 null
+VM415 vm.js:828 调用了getItem函数 函数的返回值是 null
+VM415 vm.js:810 从 localStorage 获取 getItem 该属性的值是 getItem
+VM415 vm.js:2495 从 Proxy(Storage) {__#classType: 'localStorage'} 中提取 $_YWTU 得到的是 null
+VM415 vm.js:828 调用了getItem函数 函数的返回值是 null
+VM415 vm.js:810 从 indexedDB 获取 open 该属性的值是 open
+VM415 vm.js:828 调用了open函数 函数的返回值是 IDBOpenDBRequest {}
+VM415 vm.js:816 向 open的返回值 设置 onerror 该属性的值是 ƒ _$cc(_$_m){}
+VM415 vm.js:816 向 open的返回值 设置 _onerror 该属性的值是 ƒ _$cc(_$_m){}
+VM415 vm.js:810 从 open的返回值 获取 addEventListener 该属性的值是 addEventListener
+VM415 vm.js:1147 给 Proxy(IDBOpenDBRequest) {_onerror: ƒ} 增加了事件监听, 事件是 error
+VM415 vm.js:816 向 open的返回值 设置 onupgradeneeded 该属性的值是 ƒ _$f9(_$_m){var _$dC,_$hg;_$dC=_$_m[_$gz[10]][_$is[84]],_$hg=_$dC[_$jg[83]](_$gz[73],{keyPath:_$gz[59],unique:false});}
+VM415 vm.js:816 向 open的返回值 设置 _onupgradeneeded 该属性的值是 ƒ _$f9(_$_m){var _$dC,_$hg;_$dC=_$_m[_$gz[10]][_$is[84]],_$hg=_$dC[_$jg[83]](_$gz[73],{keyPath:_$gz[59],unique:false});}
+VM415 vm.js:810 从 open的返回值 获取 addEventListener 该属性的值是 addEventListener
+VM415 vm.js:1147 给 Proxy(IDBOpenDBRequest) {_onerror: ƒ, _onupgradeneeded: ƒ} 增加了事件监听, 事件是 upgradeneeded
+VM415 vm.js:816 向 open的返回值 设置 onsuccess 该属性的值是 ƒ _$ae(_$_m){var _$dC,_$hg,_$cc,_$kO;_$dC=_$_m[_$gz[10]][_$is[84]], !_$dC[_$cB[78]][_$cB[54]](_$gz[73])?_$hO._$h1._$f4=_$jA:(_$hg=_$dC[_$kE[46]]([_$gz[73]]),_$cc=_$hg[_$kE[63]](_$gz[73]),_$kO=_$cc[_$gz…
+VM415 vm.js:816 向 open的返回值 设置 _onsuccess 该属性的值是 ƒ _$ae(_$_m){var _$dC,_$hg,_$cc,_$kO;_$dC=_$_m[_$gz[10]][_$is[84]], !_$dC[_$cB[78]][_$cB[54]](_$gz[73])?_$hO._$h1._$f4=_$jA:(_$hg=_$dC[_$kE[46]]([_$gz[73]]),_$cc=_$hg[_$kE[63]](_$gz[73]),_$kO=_$cc[_$gz…
+VM415 vm.js:810 从 open的返回值 获取 addEventListener 该属性的值是 addEventListener
+VM415 vm.js:1147 给 Proxy(IDBOpenDBRequest) {_onerror: ƒ, _onupgradeneeded: ƒ, _onsuccess: ƒ} 增加了事件监听, 事件是 success
+VM415 vm.js:807 从 window 获取 Math 该属性的值是 Math {abs: ƒ, acos: ƒ, acosh: ƒ, asin: ƒ, asinh: ƒ, …}
+VM415 vm.js:807 从 window 获取 Math 该属性的值是 Math {abs: ƒ, acos: ƒ, acosh: ƒ, asin: ƒ, asinh: ƒ, …}
+VM415 vm.js:810 从 Math 获取 random 该属性的值是 random
+VM415 vm.js:810 从 Math 获取 ceil 该属性的值是 ceil
+VM415 vm.js:807 从 window 获取 Math 该属性的值是 Math {abs: ƒ, acos: ƒ, acosh: ƒ, asin: ƒ, asinh: ƒ, …}
+VM415 vm.js:810 从 Math 获取 ceil 该属性的值是 ceil
+VM415 vm.js:807 从 window 获取 Math 该属性的值是 Math {abs: ƒ, acos: ƒ, acosh: ƒ, asin: ƒ, asinh: ƒ, …}
+VM415 vm.js:810 从 Math 获取 ceil 该属性的值是 ceil
+VM415 vm.js:810 从 window 获取 parseFloat 该属性的值是 parseFloat
+
+
+VM415 vm.js:810 从 window 获取 escape 该属性的值是 escape
+
+
+VM415 vm.js:810 从 sessionStorage 获取 setItem 该属性的值是 setItem
+VM415 vm.js:2529 向 Proxy(Storage) {} 中设置 $_YWTU , 值是 GPDmSIri0D1T0yikTsyTfnSNqeo0rSwQO8nb3e5NdCl
+VM415 vm.js:816 向 sessionStorage 设置 $_YWTU 该属性的值是 GPDmSIri0D1T0yikTsyTfnSNqeo0rSwQO8nb3e5NdCl
+VM415 vm.js:810 从 localStorage 获取 setItem 该属性的值是 setItem
+VM415 vm.js:2529 向 Proxy(Storage) {__#classType: 'localStorage'} 中设置 $_YWTU , 值是 GPDmSIri0D1T0yikTsyTfnSNqeo0rSwQO8nb3e5NdCl
+VM415 vm.js:816 向 localStorage 设置 $_YWTU 该属性的值是 GPDmSIri0D1T0yikTsyTfnSNqeo0rSwQO8nb3e5NdCl
+VM415 vm.js:810 从 indexedDB 获取 open 该属性的值是 open
+VM415 vm.js:828 调用了open函数 函数的返回值是 IDBOpenDBRequest {}
+VM415 vm.js:816 向 open的返回值 设置 onerror 该属性的值是 ƒ _$cc(_$_m){}
+VM415 vm.js:816 向 open的返回值 设置 _onerror 该属性的值是 ƒ _$cc(_$_m){}
+VM415 vm.js:810 从 open的返回值 获取 addEventListener 该属性的值是 addEventListener
+VM415 vm.js:1147 给 Proxy(IDBOpenDBRequest) {_onerror: ƒ} 增加了事件监听, 事件是 error
+VM415 vm.js:816 向 open的返回值 设置 onupgradeneeded 该属性的值是 ƒ _$f9(_$_m){var _$dC,_$hg;_$dC=_$_m[_$gz[10]][_$is[84]],_$hg=_$dC[_$jg[83]](_$gz[73],{keyPath:_$gz[59],unique:false});}
+VM415 vm.js:816 向 open的返回值 设置 _onupgradeneeded 该属性的值是 ƒ _$f9(_$_m){var _$dC,_$hg;_$dC=_$_m[_$gz[10]][_$is[84]],_$hg=_$dC[_$jg[83]](_$gz[73],{keyPath:_$gz[59],unique:false});}
+VM415 vm.js:810 从 open的返回值 获取 addEventListener 该属性的值是 addEventListener
+VM415 vm.js:1147 给 Proxy(IDBOpenDBRequest) {_onerror: ƒ, _onupgradeneeded: ƒ} 增加了事件监听, 事件是 upgradeneeded
+VM415 vm.js:816 向 open的返回值 设置 onsuccess 该属性的值是 ƒ _$eC(_$_m){var _$dC,_$hg,_$cc,_$f9;_$dC=_$_m[_$gz[10]][_$is[84]],_$dC[_$cB[78]][_$cB[54]](_$gz[73])?(_$hg=_$dC[_$kE[46]]([_$gz[73]],_$lp[83]),_$cc=_$hg[_$kE[63]](_$gz[73]),_$f9=_$cc[_$lE[16]]({name:_…
+VM415 vm.js:816 向 open的返回值 设置 _onsuccess 该属性的值是 ƒ _$eC(_$_m){var _$dC,_$hg,_$cc,_$f9;_$dC=_$_m[_$gz[10]][_$is[84]],_$dC[_$cB[78]][_$cB[54]](_$gz[73])?(_$hg=_$dC[_$kE[46]]([_$gz[73]],_$lp[83]),_$cc=_$hg[_$kE[63]](_$gz[73]),_$f9=_$cc[_$lE[16]]({name:_…
+VM415 vm.js:810 从 open的返回值 获取 addEventListener 该属性的值是 addEventListener
+VM415 vm.js:1147 给 Proxy(IDBOpenDBRequest) {_onerror: ƒ, _onupgradeneeded: ƒ, _onsuccess: ƒ} 增加了事件监听, 事件是 success
+VM415 vm.js:810 从 window 获取 escape 该属性的值是 escape
+VM415 vm.js:810 从 sessionStorage 获取 setItem 该属性的值是 setItem
+VM415 vm.js:2529 向 Proxy(Storage) {$_YWTU: 'GPDmSIri0D1T0yikTsyTfnSNqeo0rSwQO8nb3e5NdCl'} 中设置 $_YVTX , 值是 Wq
+VM415 vm.js:816 向 sessionStorage 设置 $_YVTX 该属性的值是 Wq
+VM415 vm.js:810 从 localStorage 获取 setItem 该属性的值是 setItem
+VM415 vm.js:2529 向 Proxy(Storage) {__#classType: 'localStorage', $_YWTU: 'GPDmSIri0D1T0yikTsyTfnSNqeo0rSwQO8nb3e5NdCl'} 中设置 $_YVTX , 值是 Wq
+VM415 vm.js:816 向 localStorage 设置 $_YVTX 该属性的值是 Wq
+VM415 vm.js:810 从 indexedDB 获取 open 该属性的值是 open
+VM415 vm.js:828 调用了open函数 函数的返回值是 IDBOpenDBRequest {}
+VM415 vm.js:816 向 open的返回值 设置 onerror 该属性的值是 ƒ _$cc(_$_m){}
+VM415 vm.js:816 向 open的返回值 设置 _onerror 该属性的值是 ƒ _$cc(_$_m){}
+VM415 vm.js:810 从 open的返回值 获取 addEventListener 该属性的值是 addEventListener
+VM415 vm.js:1147 给 Proxy(IDBOpenDBRequest) {_onerror: ƒ} 增加了事件监听, 事件是 error
+VM415 vm.js:816 向 open的返回值 设置 onupgradeneeded 该属性的值是 ƒ _$f9(_$_m){var _$dC,_$hg;_$dC=_$_m[_$gz[10]][_$is[84]],_$hg=_$dC[_$jg[83]](_$gz[73],{keyPath:_$gz[59],unique:false});}
+VM415 vm.js:816 向 open的返回值 设置 _onupgradeneeded 该属性的值是 ƒ _$f9(_$_m){var _$dC,_$hg;_$dC=_$_m[_$gz[10]][_$is[84]],_$hg=_$dC[_$jg[83]](_$gz[73],{keyPath:_$gz[59],unique:false});}
+VM415 vm.js:810 从 open的返回值 获取 addEventListener 该属性的值是 addEventListener
+VM415 vm.js:1147 给 Proxy(IDBOpenDBRequest) {_onerror: ƒ, _onupgradeneeded: ƒ} 增加了事件监听, 事件是 upgradeneeded
+VM415 vm.js:816 向 open的返回值 设置 onsuccess 该属性的值是 ƒ _$eC(_$_m){var _$dC,_$hg,_$cc,_$f9;_$dC=_$_m[_$gz[10]][_$is[84]],_$dC[_$cB[78]][_$cB[54]](_$gz[73])?(_$hg=_$dC[_$kE[46]]([_$gz[73]],_$lp[83]),_$cc=_$hg[_$kE[63]](_$gz[73]),_$f9=_$cc[_$lE[16]]({name:_…
+VM415 vm.js:816 向 open的返回值 设置 _onsuccess 该属性的值是 ƒ _$eC(_$_m){var _$dC,_$hg,_$cc,_$f9;_$dC=_$_m[_$gz[10]][_$is[84]],_$dC[_$cB[78]][_$cB[54]](_$gz[73])?(_$hg=_$dC[_$kE[46]]([_$gz[73]],_$lp[83]),_$cc=_$hg[_$kE[63]](_$gz[73]),_$f9=_$cc[_$lE[16]]({name:_…
+VM415 vm.js:810 从 open的返回值 获取 addEventListener 该属性的值是 addEventListener
+VM415 vm.js:1147 给 Proxy(IDBOpenDBRequest) {_onerror: ƒ, _onupgradeneeded: ƒ, _onsuccess: ƒ} 增加了事件监听, 事件是 success

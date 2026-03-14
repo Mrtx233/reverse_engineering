@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery.min.js"></script>
+    <script>
+        // $(function(){
+        //     console.log("你好呀, 我叫赛利亚");
+        // });
+        // $(函数); // 固定逻辑, 表示当页面加载完毕后, 要去执行的函数
+        // 相当于window.onload = function(){}
+        // write less do more
+
+        // $() => jquery选择器 -> 返回的是jquery对象. 你可以随意使用jquery中的各种功能
+        // document.querySelector() => 通过选择器选择页面上的内容 -> 返回的是dom对象 -> $(dom对象)
+
+        // 绑定事件, 当按钮被点击的时候.输出一句话
+
+        // 从功能上讲, 是一样的. 但是从代码编辑的难度来说. jquery更精简
+        // 原生js写法
+        window.onload = function(){
+            document.querySelector("#btn_dom").addEventListener("click", function(){
+                console.log("原生js -> 有人点我了");
+            });
+        };
+
+        $(function(){
+            $("#btn_jquery").click(function(){
+                console.log("jquery -> 有人点我了");
+            });
+        });
+
+        // 请注意, 关于jquery, 我们只需要能看明白. 就行.
+
+    </script>
+</head>
+<body>
+<input type="button" value="普通按钮" id="btn_dom">
+<input type="button" value="jquery按钮" id="btn_jquery">
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+    <input type="button" id="qiao" value="点我呀~~" >
+
+    <script>
+        function fn(){
+            console.log("大哥, 别点我. 我贵")
+        }
+        // 1. 谁和谁绑定在一起?
+        // 拿到按钮
+        var btn = document.querySelector("#qiao");
+        console.log(btn);
+        // 2. 怎么绑定
+        btn.addEventListener("click", fn); // 给btn添加事件监听. 当出现点击事件的时候, 自动执行fn
+
+    </script>
+</body>
+</html>

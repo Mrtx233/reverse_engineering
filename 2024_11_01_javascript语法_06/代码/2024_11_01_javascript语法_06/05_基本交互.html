@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function fn(){
+            console.log("我要上天");
+        }
+        function gn(){
+            console.log("失去了焦点就可以校验邮箱了");
+        }
+        // 页面加载的时候, 要去做的事情
+        window.onload = function(){
+            console.log("页面加载了. 我要开始疯狂的加载广告了");
+        }
+    </script>
+</head>
+<body>
+    <!-- 世界上最单纯的按钮 -->
+    <!-- onclick: 点击事件发生之后, 要去做什么 -->
+    <input type="button" value="点我上天" onclick="fn();">
+    <!-- onblur: 失去焦点之后, 要去做什么 -->
+    <input type="text" onblur="gn();"/>
+
+</body>
+</html>

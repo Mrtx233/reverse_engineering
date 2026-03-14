@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/1.9.1/jquery.min.js"></script>
+<!--
+    在浏览器中, 所有的静态资源是没有跨域问题的
+    一般真正在开发的时候. js, css, img, jpg, png, mp4...都可以跨域访问
+
+    我们借助浏览器的script标签. 该标签访问的时候没有跨域问题
+    访问的任何资源都会默认当成js代码被执行.
+    此时, 如果我们提前预设一个函数. 并在返回的内容中, 调用该函数.
+    就形成了一个闭环. 该闭环可以在函数内通过参数的形式接收到服务器返回的数据
+ -->
+    <script>
+        function callback(data){
+            console.log("?>>>>>>", data);
+            // 继续工作....
+        }
+    </script>
+    <!-- callback(数据) -->
+    <script src="http://127.0.0.1:12581/get_jsonp"></script>
+
+    <!-- 上述逻辑, 被称为jsonp
+     jsonp的特点: 返回的东西一定是js代码
+     xxxxx(数据)
+     -->
+
+  <script>
+      // 发请求的目的是为了加载数据
+    // $.ajax({
+    //     // 一个公司只能使用一个域名
+    //     url:"http://127.0.0.1:12581/get_jsonp",
+    //     success:function(data){
+    //         console.log("服务器返回的数据", data);
+    //     }
+    // });
+      // 能不能去发一个请求. 加载一段js代码. 而这段代码夹杂着数据
+
+  </script>
+</head>
+<body>
+
+</body>
+</html>

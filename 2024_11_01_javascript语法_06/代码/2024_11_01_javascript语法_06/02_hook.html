@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // console.log("123");
+        /***
+        // 在所有代码执行之前, 下钩子.
+        // 此处相当于, 原来的setInterval被干掉了
+        // 简单来讲, hook逻辑就是在原函数被执行之前,改变他. 并埋下debugger
+
+        var _setInterval = setInterval; // __setInterval保存的就是原来的函数
+        setInterval = function(func, tm){
+            // 我要做的事情就是端下来. 然后找到目标函数
+            debugger; // 下断点, 当程序执行到这里的时候. 暂停.通过调用栈, 可以找到在何处访问的该函数
+            console.log("我的setInterval");
+
+            // 你得让人家能回到原来的逻辑上去
+            return _setInterval(func, tm);
+        }
+
+
+        // 几十万行中......
+        var i = 1;
+        // cookie值, 每隔一段时间, 自动就改变. 没人动过网页,也没有新的请求发出去
+        setInterval(function(){
+            document.cookie = "qiao="+i;
+            i ++;
+        }, 1000);
+
+        setInterval(function(){
+            // 发请求的. 用来处理正常的业务逻辑, 加载一些数据....
+            // 如果这些数据没有, 网站是不完整的
+            // 这里的逻辑必须得正常
+        }, 1000)
+
+        // 我就像在几十万行代码中, 找到setInterval
+
+        // hook是用来在几十万行代码中找js代码(几乎都是找js内部的一些函数)
+        // 通过代码的形式, 想办法让目标函数, 自己蹦出来
+
+        */
+
+        // // hook的逻辑
+        // var _变量 = 被hook函数;
+        // 被hook的函数 = function(参数????){
+        //     debugger; // 为了找在何处调用的`被hook函数`
+        //
+        //     return _变量(参数?????);
+        // }
+
+
+        // var _fn = fn; // ???
+        // (function(){
+        //     function fn(){
+        //
+        //     }
+        // })();
+
+        // // JSON
+        // var _JSON_parse = JSON.parse;
+        // JSON.parse = function(s){
+        //     debugger;
+        //     return _JSON_parse(s);
+        // }
+        // var _JSON_stringify = JSON.stringify;
+        // JSON.stringify = function(s){
+        //     debugger;
+        //     return _JSON_stringify(s);
+        // }
+
+        // 用hook处理无限debugger
+
+        // 通用的方案:
+        // 1. 右键,never pause here
+        // 2. 在setInterval执行之前. 置空
+        // 下条件断点:
+        // setInterval = function(){}; false;
+
+        // 第一种, 最蠢的无限debugger;
+        // setInterval(function(){
+        //     debugger;
+        // }, 1000);
+
+        // 解决方案:
+        // 1. 右键,never pause here
+        // 2. 在setInterval执行之前. 置空
+        // 下条件断点:
+        // setInterval = function(){}; false;
+
+        // // 第二种, 利用Function构建一个新的函数.
+        // setInterval(function(){
+        //     Function("debugger")();
+        // }, 1000);
+
+        // 解决方案:
+        // 可以通过hook Function的方案来解决
+        // var _Function = Function;
+        // Function = function(){
+        //     let arr = [];
+        //     // 替换掉所有的参数中的debugger;
+        //     for(var i = 0 ; i < arguments.length; i++){
+        //         let arg = arguments[i];
+        //         arg = arg.replaceAll("debugger", "");
+        //         arr.push(arg);
+        //     }
+        //     // return _Function(arr); // 错误的
+        //     return _Function.apply(this, arr); // 走回正常逻辑
+        // }
+
+        // 今天最恶心的地方来了.
+        // console.log(Function.prototype.constructor === Function);
+
+        setInterval(function(){
+            // 函数.__proto__.constructor
+            // 原型对象上的constructor()
+            (function(){}).constructor("debugger")();
+        }, 1000);
+
+        // var _Function_prototype_constructor = Function.prototype.constructor;
+        // Function.prototype.constructor = function(){
+        //     let arr = [];
+        //     // 替换掉所有的参数中的debugger;
+        //     for(var i = 0 ; i < arguments.length; i++){
+        //         let arg = arguments[i];
+        //         arg = arg.replaceAll("debugger", "");
+        //         arr.push(arg);
+        //     }
+        //     // return _Function(arr); // 错误的
+        //     return _Function_prototype_constructor.apply(this, arr); // 走回正常逻辑
+        // }
+
+        // 综上, 看清楚人家用的是谁. 你就去hook谁...
+
+        // https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+    <button id="btn">点我, 给我服务器发消息</button>
+
+    <script>
+        // 如果自己写的函数. 是很容易通过调用栈, 找到的(逆向的时候能看到)
+
+        // hook open -> 由于open是系统函数,  这种自带的函数到了send()
+        // 被hook的open是看不到的.....
+
+        var _XMLHttpRequest_open = XMLHttpRequest.prototype.open;
+        XMLHttpRequest.prototype.open = function(method, url){
+            url += "?p=10086"; // 模拟加密
+            return _XMLHttpRequest_open.call(this, method, url);
+        }
+        // send也是同理
+        // 逆向的水平: 你能使用的工具/技术/方案 越多越好...
+
+    </script>
+
+    <script>
+       // 原生的js, ajax请求
+       document.querySelector("#btn").addEventListener("click", function(){
+           console.log("走你~~~");
+           // 1. 创建xhr对象
+           var xhr = new XMLHttpRequest();
+           // 2. open -> url, 注意, 此时还没有发请求
+           xhr.open("get", "/ajax_01");
+           // 2.5 设置返回值如何接收.
+           xhr.onreadystatechange = function(){
+               // 服务器返回了东西. 并且, 返回的东西已经全部接收到
+               if(xhr.readyState === 4){
+                   if(xhr.status === 200){
+                       // 服务器返回的数据
+                       var data = xhr.responseText;
+                       console.log("===>", data);
+
+                       var div = document.createElement("div");
+                       div.innerText = "hello";
+                       document.querySelector("body").append(div);
+                   }
+               }
+           }
+
+           // 3. 发请求
+           xhr.send(); // 发请求
+
+           // 以上是js自带的逻辑 -> 有人觉得这玩意不好用...
+       });
+    </script>
+</body>
+</html>

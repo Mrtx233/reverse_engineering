@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="btn">我爱你</div>
+    <script>
+        var btn = document.getElementById("btn");
+        btn.addEventListener("click", function(){
+            console.log("我爱你");
+        });
+        btn.addEventListener("click", function(){
+            console.log("我爱你");
+        });
+        btn.addEventListener("click", function(){
+            console.log("我爱你");
+        });
+        btn.addEventListener("click", function(){
+            console.log("我爱你");
+        });
+        btn.addEventListener("click", function(){
+            console.log("我爱你");
+        });
+
+
+        // 通过代码触发事件
+        let evt = new Event("click");
+        // 给按钮btn派发一个点击事件
+        btn.dispatchEvent(evt);
+
+        // 在派发事件过程中. 引擎内部会拿到事件的类型, 作用的对象
+        // 根据作用的对象和事件的类型. 找到事件监听队列.把里面的所有回调函数挨个执行
+
+
+
+    </script>
+</body>
+</html>

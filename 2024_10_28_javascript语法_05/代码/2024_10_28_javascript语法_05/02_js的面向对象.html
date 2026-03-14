@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        /**
+        // var obj = {
+        //     chi: function(){
+        //         console.log("在吃");
+        //     }
+        // }; // 就是对象
+        // obj.name = "樵夫"; // 通过.操作访问对象的属性和方法
+        // obj.chi();
+
+        // var obj = Object(); // var obj = new Object();  ==>  var obj = {}
+        // obj.name = "敲";
+        //
+        // var obj2 = new Object();
+        // obj2.name = "qiao";
+        //
+        // console.log(obj);
+        // console.log(obj2);
+
+        // 如果想要类似python的类的逻辑, 归纳某一类事务能执行的方法, 定义的属性
+
+        // 函数有两面性:
+        // 1. 普通函数
+        // 2. 作为构造函数来使用
+        // function还可以作为定义contructor的函数 -> 构造函数 -> 构建一个对象的函数
+        function NvPengYou(name, age, height, weight){ // 类比, python中的__init__
+            // this  => python中的self
+            // 给对象设置属性
+            this.name = name;
+            this.age = age;
+            this.height = height;
+            this.weight = weight;
+        }
+        // // 普通函数调用的逻辑. 是拿不到对象的.
+        // var p1 = NvPengYou("林志玲", "18", 185, 110);
+        // console.log(p1);
+
+        // 创建对象
+        var p1 = new NvPengYou("林志玲", "18", 185, 110); // 这样new的, 才是真的把函数当成构造函数来使用
+        console.log(p1);
+        console.log(p1.name);
+
+        // 函数()  => 普通函数
+        // new 函数() => 构造函数
+
+        // 目前, 我们知道的, js想要通过new的方式创建对象的话.
+        // 1. 先写构造函数
+        // 2. new 构造函数()
+        // 3. 得到对象.....
+
+
+        */
+
+
+        /**
+        // // 问题:
+        // // 1. 方法呢?
+        // // 2. 类呢?
+        // function Person(name, age){
+        //     this.name = name;
+        //     this.age = age;
+        //     // 这样写是有很大问题的, 如果Person的方法有100个. 意味着, 每创建一个对象, 方法就要完全重新复刻一遍
+        //     this.chi = function(){ // ?
+        //         console.log(this.name, "在吃东西");
+        //     }
+        // }
+        //
+        // var p1 = new Person("樵夫", 18);
+        // // 1. 方法呢?
+        // // 我们从调用的角度来看这个问题
+        // // 对象.方法()
+        // // 对象.方法 = function(){} 这样是可以增加新方法的. 但是不推荐
+        // p1.chi();
+        //
+        // var p2 = new Person("行者孙", 18);
+        // p2.chi();
+        //
+        // // 所有的函数, 在被创建的时候, 都会有一个prototype属性.翻译叫原型
+        // function fn(){
+        //
+        // }
+        //
+        // console.log(fn.prototype); // 类似于python中的类
+        */
+
+        /**
+        function Person(name, age){ // 默认就会产生prototype属性
+            this.name = name;
+            this.age = age;
+        }
+
+        var p1 = new Person("樵夫", 18);
+        var p2 = new Person("张无忌", 25);
+
+        // Person.prototype 当成  class Person
+        // 写在类中的函数, 被称为? 方法
+        Person.prototype.chi = function(){
+            console.log("我爱你", this.name);
+        }
+
+        Person.prototype.he = function(){
+            console.log(this.name, "在喝东西");
+        }
+
+        p1.chi();
+        p2.chi();
+        p1.he();
+        p2.he();
+        p1.hahahaha();
+
+        // 粗略的做个总结:
+        // 构造函数.prototype  =>  类
+        // new 构造函数()  => 创建对象
+        // 对象.方法()  => 先找对象自身,如果对象中有该方法, 直接执行, 否则去找对象的`类`, 如果找到了
+        // 就执行方法. 否则. 就报错了
+        */
+
+
+        /**
+        // 对象调用方法的执行过程
+        function Person(name, age){ // 默认就会产生prototype属性
+            this.name = name;
+            this.age = age;
+        }
+
+        // var p1 = new Person("樵夫", 18);
+        // var p2 = new Person("张无忌", 25);
+        //
+        // Person.prototype.chi = function(){
+        //     console.log("我爱你", this.name);
+        // }
+        // p1.chi();
+        // p2.chi();
+
+        // console.log(Person.prototype.constructor === Person); // true
+        var p1 = new Person("樵夫", 18);
+        console.log(p1.__proto__ === Person.prototype, "========="); // true
+
+        // 对象在执行方法的时候.
+        // 先去对象自身查找某个方法是否存在, 如果存在. 那么就会调用该方法
+        // 如果不存在, 就会找到对象中的__proto__ 在__proto__中查找是否存在该方法
+
+        // 每个函数中都会有prototype属性
+        // 每个对象中都会有__proto__属性, 在js中万事万物皆为对象.
+        // js中所有的东西都会有__proto__
+        var a = 18;
+        var s = "";
+        var obj = {};
+        var arr = [];
+        // 对象.__proto__
+        // 函数.prototype
+        // 在默认情况下
+        // 对象.__proto__  === 构造函数.prototype  => 指向的是同一个东西 => 这个东西被称为原型对象
+        // 访问原型对象(没有任何条件更改的情况下):
+        // 1. 构造方法.prototype
+        // 2. 对象.__proto__
+        */
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

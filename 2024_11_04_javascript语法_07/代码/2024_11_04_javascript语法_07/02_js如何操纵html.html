@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function fn(){
+            // 可以执行任何你需要做的事情
+            // console.log("你点我了 ");
+            // 通过js向html输出内容
+            // innerText表示给两个标签中间的文本
+            // document.querySelector("div").innerText = "你好, 你喜欢樵夫么?"
+
+            // var txt = document.querySelector("div").innerText;
+            // console.log(txt);
+
+            // innerHTML: 把两个标签中间的内容当成html标签来使用
+            // 有了它, 我们就可以在html页面中的任何位置中插入任何一段html代码
+            // document.querySelector("div").innerHTML = "<input type='text'/>";
+            // console.log(document.querySelector("div").innerHTML); // 拿到的是html代码
+            // console.log(document.querySelector("div").innerText); // 拿到的是纯文本
+
+            for(var i = 0; i < 5; i++){
+                var el = document.createElement("div"); // 创建一个节点
+                console.log(el);
+                el.innerText = "樵夫";
+                el.setAttribute("qiao", "haha");
+                el.id = i;
+                document.querySelector("body").append(el);
+            }
+            // console.log(zheng);
+            //
+            // // append, 追加到内部
+
+            // var div = document.querySelector("div");
+            // // 找到div的父级目录, 删除掉目标节点
+            // div.parentElement.removeChild(div);
+            //
+            // // JS对html页面有无限的操作权
+            var val = document.querySelector("span").getAttribute("qiaooooooooo");
+            console.log(val);
+        }
+    </script>
+</head>
+<body>
+    <input type="button" value="点我" onclick="fn();">
+    <hr>
+    <div>
+        <span qiaooooooooo="周杰伦">我爱你</span>
+    </div>
+</body>
+</html>
+<!--
+  1. 浏览器中找到source, 页面源代码
+  2. 发请求. 获取到页面源代码
+  3. 解析 xpath.......
+  -->

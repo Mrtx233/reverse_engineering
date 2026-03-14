@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/static/js/axios.min.js"></script>
+    <script>
+        // // 0
+        // axios.get("/get_axios").then(function(rep){
+        //     console.log(rep);
+        //     return axios.post("/post_axios", {uname:"qiao", age:18}, {headers:{'token': "123456789"}})
+        // }).then(function(rep){
+        //     console.log(rep)
+        // }).catch(function(){
+        //     console.log("有人兜底")
+        // });
+
+        // 查找加密/解密 -> 拦截器
+        // 拦截器:为了让整个项目. 在不改动原有代码基础上.可以随意的对请求和响应进行拦截
+        // 一般用来做一些公共的任务(加密, 解密)
+
+        // // 请求拦截. 此时, 整个网站所有的axios请求都会被该拦截器拦截
+        // // 自动的执行第一个函数
+        // axios.interceptors.request.use(function(){请求发送要去做的事情}, function(){});
+        // // 响应拦截. 此时, 整个网站所有的axios响应都会被该拦截器拦截
+        // // 自动的执行第一个函数
+        // axios.interceptors.response.use(function(){响应回来之后要做的事情}, function(){});
+
+        axios.interceptors.request.use(function(config){
+            console.log("我是请求拦截器, 我发生在请求发送之前");
+            // debugger; //断点的时候. 抓包里面有没有东西?
+            console.log(config);
+
+            return req; // 要返回请求
+        }, function(){});
+
+
+        axios.interceptors.response.use(function(resp){
+            console.log("这里是响应拦截, 请求回来之后, 先执行这里. 然后再执行后面的then");
+            // debugger; //断点的时候. 抓包里面有没有东西?
+            console.log(resp);
+            return resp; // 要返回请求
+        }, function(){});
+
+        axios.get("/get_axios").then(function(rep){
+            console.log("我是业务代码. 处理响应 ")
+        });
+
+        // 请记住一个单词interceptors
+        // 777 999
+        // urlencode?
+        // base64
+        // 数字和字符串...hex... -> 计算机里所有的东西. 最终都是二进制 -> 数字 -> 字符串.
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

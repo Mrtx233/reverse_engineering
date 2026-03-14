@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <button id="btn">点我</button>
+    <div id="qiao">我爱你</div>
+
+    <script>
+        // element建议你翻译成标签
+        let btn = document.getElementById("btn");
+        let div = document.getElementById("qiao");
+        // js里面会有和页面上的html相映射的关系
+        // html   ->   js中
+        // button ->   HTMLButtonElement
+        // div    ->   HTMLDivElement
+        // body   ->   HTMLBodyElement
+        // 页面标签  ->  js中的一个类型
+        console.log(btn);
+        console.log(div.__proto__);
+
+        // 上述逻辑是浏览器上原生的dom元素
+
+
+
+    </script>
+</body>
+</html>

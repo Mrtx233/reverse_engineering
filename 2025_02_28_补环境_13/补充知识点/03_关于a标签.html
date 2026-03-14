@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+
+</body>
+<script>
+    function fn(url){
+        let a = document.createElement("a");
+        a.href = url;
+        a.setAttribute("href", url);
+        console.log(a.protocol +'//'+ a.host);
+        console.log(a.origin);
+    }
+    url = "/hehe"
+    fn(url);
+    url = "../hehe"
+    fn(url);
+    url = "http://www.baidu.com:80"
+    fn(url);
+    url = "http://www.baidu.com:443"
+    fn(url);
+    url = "https://www.baidu.com:443"
+    fn(url);
+    url = "https://www.baidu.com:80"
+    fn(url);
+
+
+
+
+</script>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/static/js/jquery.min.js"></script>
+</head>
+<body>
+    <button id="btn">点我, 给我服务器发消息</button>
+
+    <script>
+        $("#btn").click(function(){
+            // $.get();    // get
+            // $.post();   // post
+            // 用jquery发送ajax
+
+            $.ajax({
+                url: "/get_ajax_jquery_post", // url地址
+                method: "post", // 请求方式
+                // 默认情况下. post的data对应的是form data
+                // key=value&key=value&key=value..... -> 固定的数据格式...
+                // requests模块内部会自动的把data处理成上面这个格式.
+                // requests.post(url, data={})
+                // data:{ //给post请求增加参数
+                //     username: "樵夫",
+                //     age: 18
+                // },
+                contentType: "application/json",
+                data: JSON.stringify({'username': "qiao", "age": 18}),
+                success: function(data){ // 当请求能正常返回之后,你要干什么
+                    console.log("服务器返回的数据是:",data);
+                }
+            });
+
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // xhr请求
+        var xhr = new XMLHttpRequest(); // readyState = 0
+
+        xhr.open("get", "http://127.0.0.1:8000/get"); // readyState = 1
+        // 返回第一个数据包. 状态变成3.
+        // 返回的所有内容结束. 状态变成4
+        xhr.onreadystatechange = function(arg){ // 接收到的参数是一个事件
+            console.log("onreadystatechange -> ", arg);
+            if(xhr.readyState === 4){
+                // if(xhr.status === 200){
+                    console.log(xhr.responseText);
+                // }
+            }
+        }
+
+        xhr.send(); // 这里才是真正的发送请求  // readyState = 2
+    </script>
+</head>
+<body>
+
+</body>
+</html>

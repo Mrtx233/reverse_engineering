@@ -1,0 +1,31 @@
+一. 非对称加密_RSA
+    加密和解密使用的不是一个秘钥. 数据被篡改的可能性就非常低
+
+    请注意,
+        加密的秘钥是可以公开给任何人的  -> 公钥
+        解密的秘钥是不能给任何人的  -> 私钥
+        公钥和私钥是一起生成的. 一对儿.  不能分开生成.
+
+    python如何实现rsa加密
+
+二. 网页端可能会出现的rsa加密逻辑(三套)
+    rsa的特征: 10001/65537
+    1. 网易云音乐的那套逻辑(使用的是一个非常古老的库)
+        setMaxDigits(131),
+        d = new RSAKeyPair(b,"",c),
+        e = encryptedString(d, a)
+       请注意, 这套逻辑,计算的结果是固定的.
+
+    2. 和我们python很相似的逻辑(js的第三方库) node-jsencrypt
+        var enc = new JSEncrypt()
+        enc.setPublicKey()
+        enc.encrypt()
+
+    3. 放案例里面讲 不抠代码
+        加密的时候, 如果出现了encryptLong()
+        此时, 请注意, node-jsencrypt不支持encryptLong.
+        需要用一个新库来解决这个问题
+        node-encrypt-js
+
+三. 实战
+

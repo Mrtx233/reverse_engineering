@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // var a = 10;
+        // a ++;
+        // console.log(a); // 11
+        // a ++;
+        // console.log(a); // 12
+        // a ++;
+        // console.log(a); // 13
+        // // x++;  让x自增1. 相当于 x = x + 1   x += 1
+        //
+        // ++ a;
+        // console.log(a); // 14
+        // ++ a;
+        // console.log(a); // 15
+        // ++ a;
+        // console.log(a); // 16
+        // // ++x;  让x自增1. 相当于 x = x + 1   x += 1
+        //
+        // // 7  9
+        //
+        // // 蛋疼的逻辑
+        // var a = 10;  //  ++在前先运算， ++在后先赋值
+        // var b = a ++; // a++ 此时, 表达式的结果: a在运算之前的数据
+        // console.log(a);  // 11
+        // console.log(b);  // 10
+        //
+        // var c = 10;
+        // var d = ++ c; // ++a 此时, 表达式的结果: a在运算之后的数据
+        // console.log(c); // 11
+        // console.log(d); // 11
+
+        // a++, ++a 运算逻辑, 对于自增的变量本身是没有区别的
+        // 如果进行赋值操作. 就不一样了.
+        // a++ 表达式的结果就是计算之前的a
+        // ++a 表达式的结果就是计算之后的a
+
+        // function fn(a){ // 局部的
+        //     console.log(">>>", a); // 10
+        // }
+        //
+        // var a = 10;  // 全局变量
+        // // var b = 20
+        // //
+        // // var c = b + ++ a;
+        // // console.log(c); // 31
+        // // var temp = ; // 全局的
+        //
+        // // temp => ? 10
+        // fn(a++);
+        // console.log(a); //11
+
+        // 77777  9999
+
+        // // 全局和局部, ++
+        // var a = 1;
+        // function fn1(a){
+        //     function fn2(){
+        //         console.log(">>>>>",a);  // 3
+        //     }
+        //     a ++;
+        //     fn2();
+        // }
+        //
+        // fn1(++a);
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

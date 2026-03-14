@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // 1. js中所有的东西都是对象
+        // 2. 所有的对象都有__proto__原型对象
+        // var func = function(){
+        //
+        // }
+        // // 看到函数的构造方法
+        // // 函数也是对象  777 999
+        // console.log(func.__proto__.constructor === Function);
+
+        // 你写的函数本身是Function的对象, Function的原型链:Function.prototype....
+
+        // 函数你可以认为是:
+        // 1. 函数
+        //    1.1 普通函数
+        //    1.2 构造函数
+        // 2. 正常的对象
+        // 函数是通过Function构建出来的对象
+
+        // // var func = function(){console.log('我爱你');};
+        //
+        // var func = new Function("console.log('我爱你123213213');"); // 相当于构建了一个函数
+        // func();
+        // // 我们所有的函数都属于Function的对象
+        // 13 9999
+        // console.log((function(){}).__proto__ === Function.prototype);
+
+        // // Function()  <=> new Function()
+        // var m = (function(){}).constructor("console.log('iloveyou')");
+        // var m1 = Function("console.log('iloveyou')");
+        // m();
+        // m1();
+
+        // (function(){})['constructor']("debugger")(); // 相当于直接运行debugger
+
+        setInterval(function(){
+            // debugger => 打开devtools的调试功能. 暂停在这一行代码处
+            // 无限debugger;
+            // 这样写的好处是可以对代码进行重度混淆
+            (function(){})['constructor']("debugger")();
+            var sth = 'constr'+'uctor';
+            var db = "debugger";
+            (function(){})[sth](db)();
+            // debugger;
+        }, 1000);
+
+
+
+
+
+
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

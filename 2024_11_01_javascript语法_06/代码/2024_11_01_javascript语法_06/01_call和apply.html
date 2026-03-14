@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // var fn = function(){
+        //     console.log("我是函数");
+        // }
+
+        // // 执行一个函数
+        // fn();
+        //
+        // // js所有的函数都有两个特殊的方法
+        // // fn.call()
+        // // fn.apply()
+        //
+        // // call叫调用
+        // fn.call(); // 就可以运行函数
+
+        /**
+         * 之前讲的知识点~~~
+        // 构造方法
+        function Person(name){
+            this.name = name;
+        }
+
+        // 普通方法
+        Person.prototype.chi = function(){
+            // this
+            console.log(this.name, "喜欢吃东西")
+        }
+
+        var p = new Person("林志玲");
+        // 正常使用方法的时候. 方法内部的this就是当前正在执行该方法的对象
+        p.chi();
+
+        var pp = new Person("李嘉诚");
+        pp.chi();
+         */
+
+        /**
+         * call和apply的逻辑
+
+
+        window.name = "我是window";
+
+        function Person(name){
+            this.name = name;
+        }
+
+        // 普通方法
+        Person.prototype.chi = function(){
+            // this
+            console.log(this.name, "喜欢吃东西")
+        }
+
+        var p = new Person("林志玲");
+        var pp = new Person("李嘉诚");
+
+        // // 通过call这种方式来访问函数, 默认情况下. 就是一个普通的函数
+        // // 的调用. 此时. 注意,,,,,此时, this没有被指向过.
+        // //  此时this就是window对象
+        // // p.chi.call();
+        // // pp.chi.call();
+        //
+        // // 可以改变this的指向
+        // // function.call(this指向谁?, 函数本身需要的其他参数)
+        // Person.prototype.chi.call(pp); // 相当于pp.chi()
+        // Person.prototype.chi.call(p); // 相当于pp.chi()
+        // // p.chi.call(pp)
+        //
+        // // p.方法
+        // // 你未来看到的call很多都是Person.prototype.chi.call
+        //
+        // // 7 999
+        // p.chi(); // 必须得在原型连上?
+        // Person.prototype.chi.call(对象); // 框架设计
+
+        // function fn(){
+        //     console.log(this.name, "哈哈哈")
+        // }
+        // fn();
+
+        // // 更规范
+        // p.chi(); // 之所以可以这样访问一个方法, 原因是chi是在p的原型链上  p.__proto__
+        // // 普适性
+        // Person.prototype.chi.call({name:"娃哈哈"}); // 此时这种调用, 就不需要对象的原型上必须要有某个方法
+
+        // // 恶心人
+        // Person['prototype']['chi']['call']()
+
+        // var s = "hehe";
+        // s.charCodeAt(0)
+        // s.charCodeAt(0)
+        // s.charCodeAt(0)
+        //
+        // String.prototype.charCodeAt.call(s, 0); // s.charCodeAt()
+        */
+
+        // function Person(name){
+        //     this.name = name;
+        // }
+        //
+        // // 普通方法
+        // Person.prototype.chi = function(zhu,cai,tang){
+        //     // this
+        //     console.log(this.name, "喜欢吃东西", zhu,cai,tang)
+        // }
+        //
+        // var p = new Person("林志玲");
+        // // 正常调用
+        // p.chi("大米饭", "西红柿抄鸡蛋", "紫菜蛋花汤");
+        // // call调用. 第二个位置以后的内容作为目标函数的参数
+        // Person.prototype.chi.call(p, "大米饭", "西红柿抄鸡蛋", "紫菜蛋花汤");
+
+        // // apply的逻辑和call是一样的.
+        //
+        // function Person(name){
+        //     this.name = name;
+        // }
+        //
+        // // 普通方法
+        // Person.prototype.chi = function(zhu,cai){
+        //     // this
+        //     console.log(this.name, "喜欢吃东西", zhu,cai);
+        // }
+        //
+        // var p = new Person("林志玲");
+        //
+        // p.chi("米饭", "黄瓜");
+        // Person.prototype.chi.call(p, "米饭", "黄瓜");
+        // // apply, 给函数传递参数是在第二个参数传递的. 一般封装一个数组进行传递
+        // Person.prototype.chi.apply(p, ["米饭", "黄瓜"]);
+
+        // // 和上面逻辑没有关系的一个东西
+        // function fn(a, b){
+        //     console.log(arguments); // 所有的函数都有这样的一个固定变量, 装载的就是函数传递过来的参数
+        //     console.log(a + b);
+        // }
+        // fn(1);
+        // fn(1, 2);
+        // fn(1, 2, 3);
+        // fn(1, 2, 3, 4, 5);
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

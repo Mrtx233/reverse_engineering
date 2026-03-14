@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="one.js"></script>
+</head>
+<body>
+    <!-- form表示一个完整的单子 在给服务器传输数据的时候
+        浏览器会自动的收集form表单中用户输入的内容.
+        提交到服务器
+
+        提交表单的逻辑:
+        把表单元素的name=和表单的value
+     -->
+    <form action="http://www.baidu.com">
+        <!-- xuezhiqian=用户填写的 -->
+        用户名: <input type="text" name="xuezhiqian" id="uname"><span id="uname_show"></span><br/>
+        密码: <input type="password" name="pwd" id="pwd"><span id="pwd_show"></span><br/>
+        <!-- 浏览器默认的提交事件 | 后面要做验证了. 更换最单纯的按钮 -->
+        <input type="hidden" name="token" value="" id="login_token"/>
+        <input type="button" value="提交表单" onclick="fn();">
+    </form>
+</body>
+</html>

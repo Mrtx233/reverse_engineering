@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+      <script>
+          // var code = "var a = 88";
+          // eval(code); // 运行代码
+          // console.log(a);
+
+          // console.log("我爱你");
+          // eval("console.log('我恨你')");
+
+          // 请记住一个原则. eval(参数) eval的参数必须是字符串
+          // 所以, 如果你想要看到eval中的代码. 可以把这段代码单独揪出来.
+
+           // eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('0.1(\'我爱你\')',62,2,'console|log'.split('|'),0,{}))
+          // 以后看到eval不要慌
+          //  eval(任何东西)  => 干掉eval => (任何东西) => 丢浏览器就好了.
+          //  你就能看到代码是什么了
+
+
+          console.log('我爱你');   // 很容能看懂
+          // 故意的变成下面的样子. 让你看不懂.
+          eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('0.1(\'我爱你\')',62,2,'console|log'.split('|'),0,{}))
+
+      </script>
+</head>
+<body>
+
+</body>
+</html>

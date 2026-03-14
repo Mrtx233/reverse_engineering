@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <!--
+        翻译过来叫画布
+           1. 可以画图, 可以画点, 线, 面
+           2. 高速的处理画面的能力(可以使用显卡来渲染) -> 可以做游戏
+
+           cocos2D
+           unity3D
+     -->
+    <canvas id="cvs"></canvas>
+    <script>
+        let cvs = document.getElementById("cvs");
+        cvs.with = 500;
+        cvs.height = 500;
+
+        // 画图 -> 拿画图的引擎对象
+        let ctx = cvs.getContext("2d");
+        ctx.beginPath();
+        ctx.lineTo(10, 50);
+        ctx.lineTo(50, 100);
+        // 画
+        ctx.stroke();
+
+        let data = cvs.toDataURL();
+        console.log(data);
+
+
+
+
+    </script>
+
+</body>
+</html>

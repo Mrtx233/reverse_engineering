@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--向 createElement的返回值 设置 content 该属性的值是 action-->
+<form id="__abc__" name="qiao" action="https://ucenter.miit.gov.cn/login.jsp">
+    <input type="text" id="username" content="action" name="action">
+    <input type="text" id="password" name="textContent">
+    <input type="submit" id="innerText" name="id">
+</form>
+<input type="submit" name="polan">
+
+</body>
+
+<script>
+    /**
+     * 1. 加载整个页面的时候. 捋所有的标签的id值. 把id值和标签  存储到 ids{id: 标签}
+     *      window.xxxx
+     *      每次改变页面结构的时候. 都要处理一下ids{id: 标签}
+     *
+     *  2. 给window再挂一个代理. 当从window中获取东西的时候. 去页面上现场搜. 能搜到就返回
+     *      window.xxx  = > docuemnt.getElementById("__Zm9ybS5pZAo__") => 优先
+     *
+     *  1, 2
+     */
+    // let form = document.createElement("form");
+    // form.id = "__Zm9ybS5pZAo__";
+    // let ret = document.body.appendChild(form);
+    // form.setAttribute("id", "che");
+    // console.log(window.__Zm9ybS5pZAo__);
+    // document.body.removeChild(form);
+    // console.log(window.__Zm9ybS5pZAo__);
+
+    // console.log(window.__abc__.action); // window.id值
+    console.log(document.qiao.action);
+
+    /**
+     * form.xxx
+     * 优先去拿该标签内部的表单元素.
+     * form标签.input_name
+     *
+     */
+</script>
+</html>

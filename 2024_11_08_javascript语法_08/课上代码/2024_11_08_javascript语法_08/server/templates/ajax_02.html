@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/static/js/jquery.min.js"></script>
+</head>
+<body>
+    <button id="btn">点我, 给我服务器发消息</button>
+    <script>
+        var _XmlHttpRequest_open = XMLHttpRequest.prototype.open;
+        XMLHttpRequest.prototype.open = function(method, url){
+            url += "&qiao=10086";
+            return _XmlHttpRequest_open.call(this, method, url);
+        }
+
+    </script>
+    <script>
+        $("#btn").click(function(){
+            // $.get();    // get
+            // $.post();   // post
+            // 用jquery发送ajax
+
+            $.ajax({
+                url: "/get_ajax_jquery?username=qiao", // url地址
+                method: "get", // 请求方式
+                success: function(fanshui数据){ // 当请求能正常返回之后,你要干什么
+                    console.log("服务器返回的数据是:",fanshui数据);
+                }
+            });
+            // js能发请求的只有ajax
+            // var xhr = new XmlHttpRequest();
+            // xhr.open(method, url);
+            // xhr.send();
+            // 再往里面挖就是浏览器源码(C语言)
+        });
+    </script>
+</body>
+</html>

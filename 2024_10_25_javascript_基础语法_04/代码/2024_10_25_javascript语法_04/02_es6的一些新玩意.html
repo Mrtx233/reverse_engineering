@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // function fn(){
+        //     console.log("我爱你");
+        // }
+        //
+        //
+        // var fn = function(){
+        //     console.log("我爱你");
+        // }
+        //
+        // fn();
+
+        // (function(a, b){
+        //     a();
+        //     b();
+        // })(function(){
+        //
+        // }, function(){
+        //
+        // });
+
+        // // es6 -> js的新版本 新特性. 箭头函数
+        // var fn = () => {
+        //     console.log("我爱你111");
+        // };
+        //
+        // fn();
+        // // 如果函数只有一个参数, 小括号是可以省略的
+        // var gn = a => {
+        //
+        // }
+        // 以前, 为了兼容各个浏览器. 会自动的把es6中的箭头函数
+        // 处理成function的样子
+
+        // 如果你的函数体只有一句话. {}也可以省略 返回值可以不写return
+        // var fn = (a, b) => {
+        //     return a + b;
+        // }
+
+        // var fn = (a, b) => a + b; // 有道词典.
+        // var ret = fn(88888, 2);
+        // console.log(ret);
+        //
+        // var xxxx = (a, b) => jiami(a, b);
+
+
+        // (function(a, b){
+        //     a();
+        //     b();
+        // })(()=>{
+        //
+        // },()=>{
+        //
+        // });
+
+        // var obj = {
+        //     name: "林志玲",
+        //     age: 18
+        // }
+        //
+        // obj.name
+        // obj['name']
+
+        // var name = "林志玲";
+        // var age = 18;
+        //
+        // var obj = {
+        //     name, // 当你的key和value的变量是同一个,此时可以省略:后面的东西
+        //     age,
+        // } // 777 999
+        // console.log(obj.name);
+        // console.log(obj.age);
+
+        // var obj = {
+        //     name:"林志玲",
+        //     chi: function(){
+        //         console.log("我爱吃东西");
+        //     }
+        // }
+
+        // // 可以有更加优雅的方式写方法
+        var obj = {
+            name:"林志玲",
+            chi(){ // 直接写方法
+                console.log(this.name, "爱吃东西");
+            }
+        }
+        // obj.chi(); // 77 99
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

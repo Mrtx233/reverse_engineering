@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/1.9.1/jquery.min.js"></script>
+    <!--
+    <script>
+        function callback(data){
+            console.log("?>>>>>>", data);
+            // 继续工作....
+        }
+    </script>
+    -->
+    <!-- callback(数据)
+    <script src="http://127.0.0.1:12581/get_jsonp"></script>-->
+
+
+
+  <script>
+      // jquery封装的jsonp
+    $.ajax({
+        // 一个公司只能使用一个域名
+        url:"http://127.0.0.1:12581/get_jsonp",
+        dataType: "jsonp",
+        success:function(data){
+            console.log("服务器返回的数据", data);
+        }
+    });
+  </script>
+</head>
+<body>
+
+</body>
+</html>

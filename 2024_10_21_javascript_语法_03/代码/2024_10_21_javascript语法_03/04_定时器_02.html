@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <script>
+    // setInterval(函数, 时间)
+        // 每隔xx时间,运行一次函数
+        // setInterval(function(){
+        //     console.log("还我钱");
+        // }, 5000);
+
+        // 环境检测
+
+        // 浏览器中提供了debugger的关键字. 可以触发浏览器的暂停. 可以观察到当前作用域下的所有变量/函数
+        // 专门给前端开发人员准备的
+
+        // var a = 10;
+        // debugger; // 浏览器执行的时候就会暂停在这里,  如果不打开devtools. 是不会有任何效果的
+        // var b = 20;
+        // console.log(a);
+
+        // 先保留原来的setInterval
+        var _setInterval = setInterval;
+        // 对setInterval进行更换
+        setInterval = function(){};  //7777 999
+
+        setInterval(function(){ // 这个定时器是为了反调试
+            debugger; // 反调试逻辑
+        }, 100);
+
+        // 还原回正常的逻辑
+        setInterval = _setInterval; // 换回原来的逻辑
+
+        // 如果后面的代码有正常的逻辑
+        setInterval(function(){
+            // 加载数据. 干活...
+            console.log("加载数据, 去干活");
+        }, 1000)
+
+
+        // 解决方案.只针对上面这个逻辑
+        // 1. 前面打断点的位置. 右键 => never pause here/一律不在此处暂停
+        // 2. clearInterval  -> 如果有循环. 这个就不灵了
+        // for(var i = 0 ; i < 100; i ++){
+        //     clearTimeout(i); // 蒙
+        // }
+        // 3. 置空 -> 比较推荐的办法, 在setInterval执行之前. 把setInterval设置为空
+        // setInterval = function(){}
+
+        // 4. hook逻辑  -> 后面会讲
+  </script>
+</head>
+<body>
+
+</body>
+</html>

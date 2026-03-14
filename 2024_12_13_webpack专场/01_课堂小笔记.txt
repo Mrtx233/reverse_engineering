@@ -1,0 +1,23 @@
+
+1. 安装webpack
+    npm install webpack
+    npm install webpack-cli
+
+    如果你能装. 就装. 装不了. 没关系的. 可以使用樵夫课堂上打包好的文件直接去分析...
+    我们的目的是为了分析它. 不是为了用它....
+
+2. webpack的使用
+    1. js的导包...
+        导入:
+            var xxx = require("xxx");  -> 一种  commonjs -> 不用改任何东西
+        导出:
+            module.exports = 导出的东西
+        这边导出的是什么. 那边收到的就是什么
+    2. webpack开始打包
+        1. 完成你的代码开发(正常的业务逻辑开发)
+        2. 完成webpack.config.js文件的编写 -> 配置文件
+        3. 在能看到webpack.config.js的地方输入webpack -> 打包
+        打包的结果在dist文件夹
+
+3. 分析webpack打包之后的代码
+

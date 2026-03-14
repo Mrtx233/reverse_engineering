@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // var s = "";
+        // var ss = '';
+
+        var s = "我叫樵夫,我爱吃鱼,大家都喜欢樵夫";
+        // // 字符串切割
+        // console.log(s.split(","));
+        // 替换, replace替换1个, replaceAll替换1堆
+        // s = s.replace("樵夫", "王安全");
+        // console.log(s);
+        // s = s.replaceAll("樵夫", "王安全");
+        // console.log(s)
+
+        // substr(起始位置, 长度)
+        // var s1 = s.substr(2, 3); // 樵夫,
+        // console.log(s1);
+        // substring(起始位置, 结束位置)
+        // var s2 = s.substring(2, 3); // 樵
+        // console.log(s2)
+
+        // 长度
+        // console.log(s.length);
+
+        // console.log(s[2]); // 索引位置的字符
+        // console.log(s.charAt(2)); // 索引位置的字符
+
+        // 返回某字符的索引位置
+        // console.log(s.indexOf("樵夫"));
+        // console.log(s.indexOf("fjads")); // -1
+        // 可以用来判断某字符串中是否包含xxx
+        // s.indexOf("xxxx") != -1
+
+        // var ss = "abcD";
+        // console.log(ss.toUpperCase());
+        // console.log(ss.toLowerCase());
+
+        // 判断是否以xxx开头
+        // console.log(s.startsWith("我叫"));
+
+        // 必须要记住的东西
+        var sss = "abc84"
+        console.log(sss.charCodeAt(0));  // 97
+        console.log(sss.charCodeAt(1));  // 98
+        console.log(sss.charCodeAt(2));  // 99
+        console.log(sss.charCodeAt(3));  // 56
+        console.log(sss.charCodeAt(4));  // 52
+
+        // 在js中. 可以把字符串, 拆解成不同的数字, 就意味着, 可以进行数学运算
+        var a = sss.charCodeAt(0) * 1;
+        var b = sss.charCodeAt(1) * 2;
+        var c = sss.charCodeAt(2) * 3;
+        var d = sss.charCodeAt(3) * 4;
+        var e = sss.charCodeAt(4) * 5;
+        console.log(a, b, c, d, e);  // 97 196 297 224 260
+        // 中间是网络传输
+
+        // 巴旦木收到消息后
+        a = a / 1 ;
+        b = b / 2 ;
+        c = c / 3 ;
+        d = d / 4 ;
+        e=  e / 5 ;
+        console.log(a, b, c, d, e); // 97 98 99 56 52
+        // 把charCode还原回字符串
+        a = String.fromCharCode(a);
+        b = String.fromCharCode(b);
+        c = String.fromCharCode(c);
+        d = String.fromCharCode(d);
+        e = String.fromCharCode(e);
+
+        var ssss = a + b + c + d + e;
+        console.log(ssss);
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

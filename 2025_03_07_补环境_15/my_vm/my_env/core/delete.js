@@ -1,0 +1,9 @@
+delete global;
+delete Buffer;
+delete out;
+delete __filename;
+delete __dirname;
+delete VMError;
+delete process;
+delete GLOBAL;
+delete NodeVM;

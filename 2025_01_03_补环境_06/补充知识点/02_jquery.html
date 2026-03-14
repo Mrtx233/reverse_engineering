@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery.min.js"></script>
+</head>
+<body>
+    <button id="btn"  qiao="gaoxing" >点我</button>
+    <div>我爱你1</div>
+    <div >我爱你2</div>
+    <script>
+        // let btn = $("div"); // jquery可以直接使用选择器
+        // 注意, 此处,你那到的btn不是dom对象. 是jquery的对象
+        // jquery的对象对dom对象进行了二次封装
+
+        // 把jquery对象处理成dom对象:
+        // 从jquery对象[index] ==> 获取到的是dom
+
+        // 如果我有了dom. 想要使用jquery的优秀的功能
+        // 直接用$(dom) ==> 获取到的是jquery对象
+
+        // let btn = document.getElementById("btn");
+        // console.log(btn); // dom
+        // console.log($(btn)); // jquery对象
+        // // 7777    9999
+
+        // let btn = document.getElementById("btn");
+        // console.log(btn.getAttribute("qiao")); // dom操作. 获取属性
+        //
+        // // btn.setAttribute("erlingqi", "8848");
+        //
+        // let btn_jquery = $(btn); // jquery的操作
+        // // console.log(btn_jquery.attr("qiao")); // jquery操作. 获取属性
+        // btn_jquery.attr("erlingqi", "10086");
+
+        // jquery 几乎可以完成dom中的各种操作.
+        // 可以用jquery做一个平替. 虽然不能100%还原所有操作. 但也差不多了.
+
+        // 构建新元素
+        // dom操作
+        // let span = document.createElement("span");
+        // span.innerText = "我是span";
+        // document.body.append(span);
+
+        // // jquery一样可以
+        // let span = $("<span></span>");
+        // span = "我是jquery生成出来的";
+        // $("body").append(span);
+
+        // node中是没有任何dom的操作和元素的
+        // 我们需要自己去补充dom.包括原型链. 包括各种操作
+
+        // 要用jquery的逻辑去复刻dom操作
+
+        // var document = {
+        //     getElementById(id){
+        //         $("#"+id)
+        //     }
+        // } // 13 9
+        // node里面用不了jquery
+        // 找平替...在node中可以像jquery一样去解析html代码
+
+        // cheerio -> 在node中可以平替jquery
+        // jsdom
+    </script>
+</body>
+</html>

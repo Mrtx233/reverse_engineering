@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+      <script>
+            // // console.log(1),
+            // // console.log(2),
+            // // console.log(3);
+            // // 逗号运算的逻辑, 就是依次执行
+            // // 需要重点记住的事情:
+            // // 逗号运算符的计算结果是最后一项运算的结果
+            //
+            // var b = (a = 18, a += 3, a += 2,a + 1);
+            // console.log(b);  // 24
+            // console.log(a); // 23
+            //
+            // // 尤其在函数的返回值
+            //
+            //
+            // function fn(a){
+            //     return a += 3,
+            //         a += 2,
+            //         a + 1 ,
+            //         a;
+            // }
+            // var ret = fn(3);
+            // console.log(ret);
+            //
+            // function s(){
+            //     console.log(1), console.log(2), console.log(3);  // 从前向后执行 ,1,2,3
+            //     let s = (1, 2, 3); // 整体进行赋值的时候. 取的是最后一个值 3
+            //     console.log(s);
+            //     // 注意. 这个括号可以在返回值时省略
+            //     var a;
+            //     return a=10,
+            //     a++,
+            //     a+=100,
+            //     {name:"alex", "a":a};
+            // }
+            // let r = s();
+            // console.log(r);  // {name: 'alex', a: 111}
+
+            //  function d(d, e, f, g) {
+            //     var h = {}
+            //       , i = a(16);
+            //     // return h.encText = b(d, g),
+            //     // h.encText = b(h.encText, i),
+            //     // h.encSecKey = c(i, e, f),
+            //     // h
+            //      h.encText = b(d, g);
+            //      h.encText = b(h.encText, i);
+            //      h.encSecKey = c(i, e, f)
+            //      return h;   // 最后返回的h中有几个key?
+            // }
+            // // 把逗号运算处理掉: 把return放在最后. 前面所有的, 都改成;就可以了
+            //
+            // var h = {}
+            // h.encText = "xxxx"
+
+      </script>
+</head>
+<body>
+
+</body>
+</html>

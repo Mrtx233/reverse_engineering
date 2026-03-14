@@ -1,0 +1,31 @@
+可以往瑞数身上去猜
+    cookie:
+        数xxxxxxxS: 短的
+        数xxxxxxxT: 长的
+
+    window:
+        $_ts: {}
+
+    打开F12, 如果有无限debugger, 从stack往回找. 能看到一个VM
+    VM中全都是_$xx
+
+    在html代码中, 会有meta标签, 里面有个content数据.
+    script标签上会有r='m' 里面会有$_ts出现
+
+
+    当我们把所有的cookie, 浏览器的缓存全部去掉之后. 通过charles进行抓包.
+    可以看到完整的瑞数的请求流程...
+        1. 加载一个412
+            返回的内容是一段html代码.
+            html里面会有meta, script($_ts)  script(js文件)  script(执行一个函数)
+            可能还会有一些其他的玩意(a)
+
+            同时会返回一个cookie值(短的)
+
+        2. 加载js文件
+        3. 执行那个函数
+        4. 重新生成cookie, 并发送请求. 此时如果符合浏览器的标准. 服务器会返回 200 状态码. 并返回正确的页面源代码
+
+        412 -> js -> 200
+
+

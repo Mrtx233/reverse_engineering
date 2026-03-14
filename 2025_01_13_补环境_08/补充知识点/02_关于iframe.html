@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+
+
+    <script>
+        let ifm = document.createElement("iframe");
+        ifm.style.display="none"; // 我们不关心渲染的问题
+        document.body.append(ifm); // 我们不关心渲染的问题
+        console.log(ifm.contentWindow);
+        console.log(window);
+        console.log(ifm.contentWindow === window);
+    </script>
+</body>
+</html>

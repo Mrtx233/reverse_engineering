@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        var i = 1;
+        setInterval(function(){
+            document.cookie = "qiao="+i;
+            i++;
+        });
+
+        // 需求:  想要在几十万行代码中, 找到修改cookie的位置
+        // var m = "18"; // 从m中获取数据, 向m中设置数据
+        // m = 88; // 设置值
+        // console.log(m); // 获取数据
+
+        // var obj = {
+        //     "name": '樵夫'
+        // }
+        // // 给某个对象定义属性
+        // Object.defineProperty(obj, "name", {
+        //     set(val){
+        //         debugger;
+        //     }, // set: function(){}
+        //     get(){
+        //         debugger;
+        //     }
+        // });
+
+        // 植入以下代码. 用来hook cookie
+        (function(){
+            var _old_cookie_get = Object.getOwnPropertyDescriptors(document.__proto__.__proto__).cookie.get
+            var _old_cookie_set = Object.getOwnPropertyDescriptors(document.__proto__.__proto__).cookie.set
+            Object.defineProperty(document, "cookie", {
+                set(val){
+                    debugger;
+                    return _old_cookie_set.apply(this, arguments)
+                },
+                get(){
+                    debugger;
+                    return _old_cookie_get.apply(this, arguments)
+                }
+            });
+        })();
+    </script>
+</head>
+<body>
+
+</body>
+</html>

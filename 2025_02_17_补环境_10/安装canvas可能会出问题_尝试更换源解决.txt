@@ -1,0 +1,17 @@
+registry=https://registry.npmmirror.com
+disturl=https://registry.npmmirror.com/-/binary/node/
+sass_binary_site=https://registry.npmmirror.com/-/binary/node-sass
+sharp_libvips_binary_host=https://registry.npmmirror.com/-/binary/sharp-libvips
+python_mirror=https://registry.npmmirror.com/-/binary/python/
+electron_mirror=https://registry.npmmirror.com/-/binary/electron/
+electron_builder_binaries_mirror=https://registry.npmmirror.com/-/binary/electron-builder-binaries/
+canvas_binary_host_mirror=https://registry.npmmirror.com/-/binary/canvas
+node_sqlite3_binary_host_mirror=https://registry.npmmirror.com/-/binary/sqlite3
+better_sqlite3_binary_host_mirror=https://registry.npmmirror.com/-/binary/better-sqlite3
+strict-ssl=false
+
+
+更换所有下载内容来源. 全都设置为阿里的源
+找到你计算机中C盘里用户目录
+找到.npmrc文件. 把上面那一堆东西复制进去
+如果没有.npmrc  自己手工创建一个, 把上面那一堆东西复制进去

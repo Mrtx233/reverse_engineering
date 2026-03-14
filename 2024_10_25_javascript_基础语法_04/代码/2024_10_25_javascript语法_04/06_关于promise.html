@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // 必须在执行完上一个任务之后. 才能开始下一个任务
+        // 比如, 用户登陆
+        // 我现在的需求, 比较变态.  ->  滑块
+        // 先保证用户输入的验证码得是对的. 我才去验证用户名和密码
+
+        // // 先发送验证码是否正确的请求
+        // console.log('1. 先发送验证码是否正确的请求');
+        // setTimeout(function(){ // 用setTimeout来模拟 网络请求的等待过程
+        //     var verify_code = true; // 服务器返回的结果
+        //     console.log("2, 服务器返回了验证码结果", verify_code);
+        //     // 服务器给结果了. 并且正确
+        //     if(verify_code){
+        //         console.log("3. 发送用户名和密码给服务器.....");
+        //         setTimeout(function(){
+        //             var login_result = true;
+        //             console.log("4. 接收到服务器返回的登陆结果", login_result);
+        //             if (login_result){
+        //                 console.log("5. 加载菜单....");
+        //                 setTimeout(function(){
+        //                     console.log("6. 菜单加载完毕");
+        //                     console.log("7. 发送心情求. 去加载用户待办事情");
+        //                     setTimeout(function(){
+        //                         // 88个逻辑
+        //                     }, 5000);
+        //                 }, 2000);
+        //             }
+        //         }, 2000);
+        //     }
+        // }, 2000);
+
+        // 77 99
+        // 死亡回调
+        // 你去干一个事情, 回来之后. 要继续做什么
+
+        // es6退出. promise.then逻辑. 解决死亡回调
+
+        function send(sth){
+            // promise; 保证给你一个结果
+            return new Promise(function(resolve, reject){
+                // 干活去
+                // 发请求
+                console.log("发请求", sth);
+                setTimeout(function(){
+                    var result = "操作成功!!!";
+                    if (sth.indexOf("3") != -1){ // 在3.xxxx 进入reject
+                        reject("有问题了");
+                    } else {
+                        if (true){
+                            // 执行正确的方案
+                            resolve(result); // 我给了你一个正确结果
+                        } else {
+                            // 执行错误的方案
+                            reject(result); // 给你一个错误的结果
+                        }
+                    }
+                }, 2000);
+            });
+        }
+
+        // 1.发请求. 检测验证码
+        //  有了结果之后, 然后, 你要干什么? then() 然后....
+
+        // send("1. 检测验证码").then(function(result){
+        //     console.log("正确");
+        //     console.log(result); // 当正确了......
+        // }, function(result){
+        //     console.log("错误");
+        //     console.log(result);
+        //         // 当错误了......
+        // }).catch(function(){ // 捕获异常
+        //
+        // });
+
+        // promise() 100%给一个结果, 结果传递给then()
+        // 根据promise中执行的resolve还是reject. 决定then中的哪一个函数
+
+        // promise().then().catch()
+
+        // 尝试着套一套
+        send("1.发请求, 查看验证码是否正确").then(function(result){
+            console.log(result);
+            // 如果在then函数中返回一个新的promise. 该promise的then可以写在外面. 形成链式调用
+            return send("2.发请求, 查看用户名或密码是否正确")
+        }).then(function(result){
+            console.log(result);
+            return send("3.发请求, 查看菜单")
+        }).then(function(result){
+            console.log(result);
+            return send("4. 加载用户待办事项");
+        }).then(function(result){
+            console.log(result);
+        }).catch(function(result){
+            console.log(result, "樵夫不服");
+        });
+        // 上述逻辑中,所有的then中只传递了一个function(){}
+        // 此时, 这个promise.then的链式调用.
+        // 其中任何一个逻辑. 执行了reject() 都会自动执行到后面的catch
+        // 这个catch你可以理解为. 报错. 走catch. 中间链式调用有问题, 走catch. 是一个收尾的逻辑
+
+        // promise的逻辑:
+        // new Promise(function(resolve, reject){
+        //  resolve(结果1) | reject(结果2)
+        // }).then(function(接收1){
+        //     走resolve的时候.要执行的事情
+        // }, function(接收2){
+        //     走reject的时候.要执行的事情
+        // });
+
+        // 各种问题随便问....oK7, 有问题9
+
+
+        // 最大的坑.就是网站里面你看不到resolve,reject
+        //
+
+        // 源代码(程序员写的)
+        function fn(suanshu_1, suanshu2){
+            return suanshu_1 + suanshu2;
+        }
+        var ret = fn(1, 3);
+        console.log(ret);
+        // 为了节省带宽, 代码会被进行压缩
+        // 把一些没有必要的变量名进行缩减. 不能影响程序的运行
+        function fn(a, b){
+            return a + b;
+        }
+        var ret = fn(1, 3);
+        console.log(ret);
+
+         /**
+          *
+        function sen(){
+            return new Promise(function(r, t){
+                if (xxx){
+                    r()
+                } else {
+                    t()
+                }
+            });
+        }
+          */
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

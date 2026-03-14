@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <script>
+    // // 植入代码, 把setInterval设置为空
+    // setInterval(function(){
+    //     debugger; // never pause here
+    // }, 100);
+    // // 植入代码, 把setInterval设置回来
+
+
+    // setInterval(function(){
+    //   let tm = new Date().getTime();
+    //   Function("debugger;"+tm+";")();
+    // }, 1000);
+
+    // var _Function = Function;
+    // Function = function(content){
+    //    content = content.replace("debugger;", "");
+    //    return _Function.call(this, content);
+    // }
+
+    // // 第三种.
+    //  setInterval(function(){
+    //    let tm = new Date().getTime();
+    //    (function(){})['constr'+'uctor']("deb"+"ugger;"+tm+";")();
+    //    // Function.prototype.constructor
+    //  }, 1000);
+
+    //  var _Function = Function.prototype.constructor;
+    // Function.prototype.constructor = function(content){
+    //    content = content.replace("debugger;", "");
+    //    return _Function.call(this, content);
+    // }
+
+  </script>
+</head>
+<body>
+
+</body>
+</html>

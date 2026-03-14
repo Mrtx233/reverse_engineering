@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+
+      // function fn(){
+      //     console.log("我爱你1111", jay);
+      //     var jay = "樵夫"; // 自动的把函数中所有的变量提前声明
+      // }
+      // fn();
+
+      // 任何编程语言在执行的时候. 要么是编译, 要么是解释, 总之要翻译成计算机认识的东西
+
+
+      // function fn(){
+      //     // var jay; // 自动的把函数中所有的变量提前声明
+      //     console.log("我爱你1111", jay); // undefined
+      //     let jay = "樵夫";
+      // }
+      // // 变量的提升, 提前把后面需要的变量提前声明
+      // fn();
+      // 变量的提升并不是什么好事情.
+      // 为了规范js的语法逻辑.在ES6中提出这样一种方式来创建变量
+      // let, 也是一个声明变量的关键字. 但是这玩意没有变量的提升
+      // const, 也可以声明变量, 但是这玩意没有变量的提升, 它声明出来的变量不能被重新赋值
+      // (function(){
+      //   const AGE = 18;
+      //     console.log(AGE);
+      //     console.log(AGE + 1);
+      //     AGE = 88;
+      //
+      // })();
+
+      // 重点. 在同一个作用域下, let和const声明的变量, 是不能重复声明的
+      //
+      // function fn(){
+      //     let qiao = "樵夫";
+      //     console.log(qiao);
+      //
+      //     function gn(){
+      //         let qiao = "哈哈";
+      //         console.log(qiao);
+      //     }
+      //     gn();
+      // }
+      // fn();
+
+
+      // // 作用域. 一个变量可以被访问的位置
+      // // 全局作用域
+      // // 在js中window对象就是全局作用域
+      // var qiaofu = "大帅哥"; // window.qiaofu = "大帅哥";
+
+      // console.log(qiaofu);
+      // console.log(window.qiaofu);
+
+      // let qiaofu2 = "很帅"; // 不会被放在全局
+      // console.log(window.qiaofu2); // let声明的东西不会被放入全局
+
+      // var aini = "爱你"; // 往全局放东西
+      //
+      // // 很重要. 777777 999999
+      // window.zhuye = "竹叶青"; // 也是向全局放东西
+      //
+      // // 未来会看到的js
+      // (function(a, b){
+      //     a();
+      // })(function(){
+      //     var gn = function(){
+      //         console.log("我爱你,")
+      //     };
+      //     // 我们后期会植入我们的代码, 把gn导出
+      //     // 把gn放出去. 放到全局. 方便我们使用
+      //     window.gn = gn;
+      //
+      // }, function(){});
+      // // 外面随便用.
+      // gn();
+
+      // // // 局部作用域
+      // var a = 88;
+      //
+      // function fn(){
+      //     var a = 10; // 局部变量, 人话: 只能在函数内部使用的变量
+      //     // 我希望外面能访问这个a
+      //     window.a = a;
+      // }
+      // fn();
+      // console.log(a); //? 全局
+
+      // function fn(){
+      //     var a = 10;
+      //     function gn(){
+      //         var a = 33;
+      //         function mn(){
+      //             var a = 66;
+      //         }
+      //         console.log(a);
+      //     }
+      //     gn();
+      // }
+      // fn();
+
+      // 变量的查找路径
+      // 注意, 参数是 局部变量
+      // 使用一个变量的时候. 首先, 先在自己的作用域里找
+      // 如果找到了就用. 如果找不到....向外找一层.
+      // 如果找到了. 就用, 如果找不到. 继续向外找
+      // python也是如此.
+
+      // 7 9
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

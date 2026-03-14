@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        /**
+        // 1.原型链
+        // js中所有的`对象`中都会有__proto__
+        // 在对象执行方法或者访问属性的时候. 都会先找到当前对象自身.
+        // 如果该对象拥有该属性或方法, 就直接执行了
+        // 如果该对象没有该方法或者属性, 就会默认的去找到__proto__原型对象
+        // 如果在原型对象中找到了该属性或者方法. 就会自动执行
+        // 否则, 会继续查找该原型对象的原型对象.....
+        // 直到找到最后Object如果还是没有该方法或者属性. 就会报错
+        // 查找路径:
+        // 对象 -> 对象.__proto__ ->  对象.__proto__.__proto__ -> .... object.prototype
+        // object.prototype.__proto__ 是特殊的. 它的值是null
+
+        function Person(){
+        }
+
+        var p1 = new Person();
+
+        p1.chi();
+        // p1.chi(); // p1 -> p1.__proto__|Person.prototype  -> p1.__proto__.__proto__ -> Object.prototype -> null
+        // 上述逻辑就是js中的原型链.
+
+        function Animal(){
+        }
+        function Cat(){
+        }
+        Animal.prototype.chi = function(){
+            console.log('动物喜欢吃东西');
+        }
+        // js的继承关系, 通过调整原型链的方式.
+        Cat.prototype.__proto__ = Animal.prototype;
+
+        var c = new Cat();
+        c.chi(); // 正常执行
+        */
+        // // 基于原型链. js中所有的对象, 最终都会指向Object
+        // // js中所有的对象都可以执行Object中的方法
+        // function Person(){
+        // }
+        // // 很多很多的库都会重新定义了toString  -> 重写
+        // Person.prototype.toString = function(){
+        //     return "我爱你";
+        // }
+        // var p1 = new Person();
+        // console.log(p1.toString()); // 先找对象自身, 然后找原型对象, 然后才是原型对象的原型对象
+        // console.log(Object.prototype);
+
+        function Person(){
+            console.log("1111");
+        }
+
+        // // Person.prototype.constructor === Person  // true //7777777 999999
+        // var p1 = new Person();
+        // // 下面这个代码隐藏逻辑, 对象自身没有的东西.去原型找
+        // console.log(p1.constructor === Person);  // ? true
+        // // 方法的查找路径:
+        // // 对象自身
+        // // 对象.__proto__
+        // // 对象.__proto__.__proto__
+        // Person.prototype.constructor = function(){
+        //     console.log("2222");
+        // }
+        // var p1 = new Person();
+        //
+        // console.log(p1.constructor === Person); //  2. false
+        // console.log(p1.constructor === Person.prototype.constructor); // 1 true
+
+        // init
+        function Person(){}
+        // 类中的其他方法
+        Person.prototype.encrypt = function(){}
+        Person.prototype.decrypt = function(){}
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

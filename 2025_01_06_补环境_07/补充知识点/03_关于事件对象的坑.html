@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="btn">我爱你</div>
+    <script>
+        // var btn = document.getElementById("btn");
+        // // 事件监听的所有回调函数都能接受到事件对象
+        // var fn = function(evt){
+        //     console.log(evt);
+        //     console.log(Object.getOwnPropertyDescriptor(evt, "isTrusted"))
+        // }
+        // btn.addEventListener("click", fn);
+        //
+        // ooo = btn.removeEventListener("click", fn);
+        // console.log(ooo);
+
+        // let evt = new Event("click");
+        // btn.dispatchEvent(evt);
+        // 所有的事件对象, 如果是浏览器触发的, isTrusted => true
+        // 如果是js中new出来的. 默认是false
+
+        window.onload = function(){
+            console.log("哈哈")
+        }
+
+    </script>
+</body>
+</html>
