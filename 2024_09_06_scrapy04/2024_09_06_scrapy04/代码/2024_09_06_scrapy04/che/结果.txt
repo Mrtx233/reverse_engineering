@@ -1,0 +1,373 @@
+C:\Python39\python.exe D:/爬虫13期专用/2024_09_06_scrapy04/che/runner.py
+https://www.che168.com/dealer/519255/52065695.html?pvareaid=100519&userpid=0&usercid=0&offertype=830&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3.8万公里', 'start_time': '2019年07月', 'pai_liang': '自动/4L', 'location': '上海', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/294779/51905805.html?pvareaid=100519&userpid=0&usercid=0&offertype=830&offertag=0&activitycartype=11&fromsxmlist=0&platfrom=36
+{'li_cheng': '1.3万公里', 'start_time': '2023年09月', 'pai_liang': '自动/2.4L', 'location': '东莞', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/63072/51806641.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5.7万公里', 'start_time': '2021年08月', 'pai_liang': '自动/0L', 'location': '长春', 'guo_biao': '-\n'}
+https://www.che168.com/dealer/555230/51572770.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5.2万公里', 'start_time': '2021年10月', 'pai_liang': '自动/3L', 'location': '济南', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/359544/51902133.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '7万公里', 'start_time': '2020年08月', 'pai_liang': '自动/2L', 'location': '南昌', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/556404/51902580.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5.1万公里', 'start_time': '2020年01月', 'pai_liang': '自动/3L', 'location': '南京', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/436087/52028564.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '7万公里', 'start_time': '2021年01月', 'pai_liang': '自动/3L', 'location': '石家庄', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/553332/52030077.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4万公里', 'start_time': '2021年10月', 'pai_liang': '自动/3L', 'location': '济南', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/498561/51883835.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '8.9万公里', 'start_time': '2020年05月', 'pai_liang': '自动/3L', 'location': '西安', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/410424/51857247.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '2.3万公里', 'start_time': '2021年04月', 'pai_liang': '自动/2L', 'location': '广州', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/103289/51929970.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5万公里', 'start_time': '2020年10月', 'pai_liang': '自动/3L', 'location': '北京', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/502259/51971018.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5.8万公里', 'start_time': '2020年04月', 'pai_liang': '自动/3L', 'location': '成都', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/616545/52028519.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4.8万公里', 'start_time': '2020年01月', 'pai_liang': '自动/2L', 'location': '成都', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/618381/52064654.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3万公里', 'start_time': '2020年09月', 'pai_liang': '自动/2L', 'location': '成都', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/518166/51828013.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '12万公里', 'start_time': '2014年05月', 'pai_liang': '自动/3L', 'location': '温州', 'guo_biao': '欧V\n'}
+https://www.che168.com/dealer/434458/52066181.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3万公里', 'start_time': '2023年03月', 'pai_liang': '自动/3L', 'location': '深圳', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/610440/51787386.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3.6万公里', 'start_time': '2021年03月', 'pai_liang': '自动/2L', 'location': '重庆', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/594654/51865965.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3万公里', 'start_time': '2021年01月', 'pai_liang': '自动/3L', 'location': '北京', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/596766/51836168.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '18万公里', 'start_time': '2014年08月', 'pai_liang': '自动/3L', 'location': '北京', 'guo_biao': '欧V\n'}
+https://www.che168.com/dealer/84199/51700701.html?pvareaid=110520&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '2万公里', 'start_time': '2015年05月', 'pai_liang': '自动/3L', 'location': '济南', 'guo_biao': '欧V\n'}
+https://www.che168.com/dealer/404469/51917238.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '7万公里', 'start_time': '2020年06月', 'pai_liang': '自动/3L', 'location': '佛山', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/459061/52041042.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5.8万公里', 'start_time': '2020年08月', 'pai_liang': '自动/3L', 'location': '郑州', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/348917/52020119.html?pvareaid=110520&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '0.3万公里', 'start_time': '2023年08月', 'pai_liang': '自动/2L', 'location': '杭州', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/447571/50530821.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5万公里', 'start_time': '2019年05月', 'pai_liang': '自动/3L', 'location': '重庆', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/309025/52073672.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3.9万公里', 'start_time': '2021年04月', 'pai_liang': '自动/2L', 'location': '郑州', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/615071/52043363.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3.2万公里', 'start_time': '2020年09月', 'pai_liang': '自动/2L', 'location': '武汉', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/595298/52076444.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5万公里', 'start_time': '2020年04月', 'pai_liang': '自动/3L', 'location': '深圳', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/602141/51899985.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '8万公里', 'start_time': '2020年08月', 'pai_liang': '自动/2L', 'location': '重庆', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/606936/51949389.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4.1万公里', 'start_time': '2020年01月', 'pai_liang': '自动/2L', 'location': '深圳', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/371487/51855024.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5万公里', 'start_time': '2021年10月', 'pai_liang': '自动/2L', 'location': '嘉兴', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/551130/51411713.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '6.3万公里', 'start_time': '2020年08月', 'pai_liang': '自动/2L', 'location': '长沙', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/343836/51673363.html?pvareaid=110520&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3.8万公里', 'start_time': '2018年11月', 'pai_liang': '自动/5.5L', 'location': '成都', 'guo_biao': '欧V\n'}
+https://www.che168.com/dealer/99235/51928837.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '16.73万公里', 'start_time': '2016年04月', 'pai_liang': '自动/4.4L', 'location': '苏州', 'guo_biao': '欧VI\n'}
+https://www.che168.com/dealer/463768/52049773.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3万公里', 'start_time': '2020年03月', 'pai_liang': '自动/4L', 'location': '石家庄', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/495326/50883003.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '2万公里', 'start_time': '2022年01月', 'pai_liang': '自动/3.5L', 'location': '广州', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/300051/50872431.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3万公里', 'start_time': '2020年09月', 'pai_liang': '自动/2L', 'location': '汕头', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/599866/51591058.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '9万公里', 'start_time': '2015年05月', 'pai_liang': '自动/5L', 'location': '廊坊', 'guo_biao': '欧V\n'}
+https://www.che168.com/dealer/367650/51915600.html?pvareaid=110520&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3万公里', 'start_time': '2022年10月', 'pai_liang': '自动/2L', 'location': '杭州', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/238301/52048294.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3万公里', 'start_time': '2017年11月', 'pai_liang': '自动/2.3L', 'location': '深圳', 'guo_biao': '国V\n'}
+https://www.che168.com/dealer/556201/51455090.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '1.4万公里', 'start_time': '2022年07月', 'pai_liang': '自动/2L', 'location': '郑州', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/257712/52015811.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4.8万公里', 'start_time': '2019年11月', 'pai_liang': '自动/2L', 'location': '石家庄', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/438865/51206653.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '18万公里', 'start_time': '2011年09月', 'pai_liang': '自动/5L', 'location': '广州', 'guo_biao': '欧IV\n'}
+https://www.che168.com/dealer/487025/51420338.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5万公里', 'start_time': '2020年06月', 'pai_liang': '自动/2L', 'location': '台州', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/260672/51621690.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5.5万公里', 'start_time': '2019年05月', 'pai_liang': '自动/3.8L', 'location': '北京', 'guo_biao': '-\n'}
+https://www.che168.com/dealer/532344/51928700.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '7万公里', 'start_time': '2021年10月', 'pai_liang': '自动/3L', 'location': '青岛', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/510119/52007049.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '7万公里', 'start_time': '2020年08月', 'pai_liang': '自动/3L', 'location': '长沙', 'guo_biao': '国VI\n'}
+https://www.che168.com/cheerror.html
+{'li_cheng': '未知', 'start_time': '未知', 'pai_liang': '未知', 'location': '未知', 'guo_biao': '未知'}
+https://www.che168.com/dealer/308476/51716174.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3万公里', 'start_time': '2020年06月', 'pai_liang': '自动/4L', 'location': '上海', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/406992/51927709.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4万公里', 'start_time': '2023年07月', 'pai_liang': '自动/3L', 'location': '石家庄', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/518166/50827163.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3.7万公里', 'start_time': '2019年09月', 'pai_liang': '自动/3L', 'location': '温州', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/197055/51760211.html?pvareaid=110520&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '9.64万公里', 'start_time': '2018年01月', 'pai_liang': '自动/3L', 'location': '泉州', 'guo_biao': '国V\n'}
+https://www.che168.com/dealer/238221/51855109.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '6.3万公里', 'start_time': '2018年08月', 'pai_liang': '自动/3L', 'location': '东莞', 'guo_biao': '欧V\n'}
+https://www.che168.com/dealer/599105/51483376.html?pvareaid=110520&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5万公里', 'start_time': '2023年02月', 'pai_liang': '自动/3L', 'location': '长沙', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/508061/52072449.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '13万公里', 'start_time': '2018年06月', 'pai_liang': '自动/3L', 'location': '杭州', 'guo_biao': '欧VI\n'}
+https://www.che168.com/dealer/560621/51715557.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5.7万公里', 'start_time': '2018年05月', 'pai_liang': '自动/4L', 'location': '郑州', 'guo_biao': '欧V\n'}
+https://www.che168.com/dealer/611920/52056327.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '1.8万公里', 'start_time': '2022年09月', 'pai_liang': '自动/3L', 'location': '深圳', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/308328/51676560.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4.53万公里', 'start_time': '2021年03月', 'pai_liang': '自动/4.4L', 'location': '上海', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/546359/51646511.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '6万公里', 'start_time': '2021年04月', 'pai_liang': '自动/2.9L', 'location': '深圳', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/299416/49389839.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5.2万公里', 'start_time': '2020年10月', 'pai_liang': '自动/3L', 'location': '湖州', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/472642/52030217.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3.2万公里', 'start_time': '2022年01月', 'pai_liang': '自动/3L', 'location': '深圳', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/618615/52055339.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3万公里', 'start_time': '2021年09月', 'pai_liang': '自动/2L', 'location': '成都', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/615637/52074128.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3.5万公里', 'start_time': '2021年02月', 'pai_liang': '自动/4.4L', 'location': '宁波', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/434532/51200703.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4.08万公里', 'start_time': '2021年02月', 'pai_liang': '自动/1.3L', 'location': '长沙', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/529362/52071835.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4.3万公里', 'start_time': '2020年05月', 'pai_liang': '自动/2L', 'location': '南昌', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/603399/52043736.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '8万公里', 'start_time': '2019年12月', 'pai_liang': '自动/3L', 'location': '佛山', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/533815/51139991.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5万公里', 'start_time': '2021年08月', 'pai_liang': '自动/2L', 'location': '合肥', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/506257/51908020.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '12万公里', 'start_time': '2020年01月', 'pai_liang': '自动/3L', 'location': '重庆', 'guo_biao': '-\n'}
+https://www.che168.com/dealer/605038/52072491.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5万公里', 'start_time': '2023年01月', 'pai_liang': '自动/3L', 'location': '郑州', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/533247/51897904.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5万公里', 'start_time': '2020年07月', 'pai_liang': '自动/2L', 'location': '北京', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/536330/51846035.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3.67万公里', 'start_time': '2020年08月', 'pai_liang': '自动/4.4L', 'location': '上海', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/491563/51954947.html?pvareaid=110520&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3.2万公里', 'start_time': '2021年06月', 'pai_liang': '自动/3L', 'location': '杭州', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/328049/52053970.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4万公里', 'start_time': '2016年09月', 'pai_liang': '自动/3.6L', 'location': '上海', 'guo_biao': '欧V\n'}
+https://www.che168.com/dealer/598315/51993008.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '8万公里', 'start_time': '2019年12月', 'pai_liang': '自动/2L', 'location': '深圳', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/533425/51837986.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3万公里', 'start_time': '2023年09月', 'pai_liang': '自动/2L', 'location': '常州', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/231671/51801994.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3.1万公里', 'start_time': '2020年01月', 'pai_liang': '自动/2L', 'location': '南京', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/472878/52077426.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '15.2万公里', 'start_time': '2011年09月', 'pai_liang': '自动/2.5L', 'location': '南宁', 'guo_biao': '欧IV\n'}
+https://www.che168.com/dealer/468544/51729276.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5万公里', 'start_time': '2020年10月', 'pai_liang': '自动/2L', 'location': '南京', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/562958/52022522.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5.42万公里', 'start_time': '2023年06月', 'pai_liang': '自动/2L', 'location': '金华', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/601598/52054565.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3万公里', 'start_time': '2021年07月', 'pai_liang': '自动/2L', 'location': '成都', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/556995/51754385.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '9万公里', 'start_time': '2021年05月', 'pai_liang': '自动/3L', 'location': '长沙', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/486133/51672853.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3.8万公里', 'start_time': '2022年05月', 'pai_liang': '自动/3L', 'location': '成都', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/152372/51861128.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3.75万公里', 'start_time': '2020年07月', 'pai_liang': '自动/2L', 'location': '郑州', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/382452/51990844.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3.1万公里', 'start_time': '2023年01月', 'pai_liang': '自动/3.6L', 'location': '宁波', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/618381/52062679.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3万公里', 'start_time': '2020年09月', 'pai_liang': '自动/2L', 'location': '成都', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/487720/51139930.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '9万公里', 'start_time': '2013年06月', 'pai_liang': '自动/5L', 'location': '上海', 'guo_biao': '欧V\n'}
+https://www.che168.com/dealer/503199/51728127.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '2.9万公里', 'start_time': '2020年07月', 'pai_liang': '自动/3L', 'location': '深圳', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/412122/51949899.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4.8万公里', 'start_time': '2022年04月', 'pai_liang': '自动/2.9L', 'location': '郑州', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/422616/52074753.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '1.76万公里', 'start_time': '2023年07月', 'pai_liang': '自动/2L', 'location': '长沙', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/606846/51889911.html?pvareaid=110520&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3.3万公里', 'start_time': '2021年08月', 'pai_liang': '自动/0L', 'location': '郑州', 'guo_biao': '-\n'}
+https://www.che168.com/dealer/217893/52003382.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '2.27万公里', 'start_time': '2022年06月', 'pai_liang': '自动/2.5L', 'location': '上海', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/245214/52001010.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3.3万公里', 'start_time': '2020年12月', 'pai_liang': '自动/3L', 'location': '常州', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/604055/51962984.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '6.4万公里', 'start_time': '2020年12月', 'pai_liang': '自动/3L', 'location': '苏州', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/613763/52052031.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '6.5万公里', 'start_time': '2018年04月', 'pai_liang': '自动/3L', 'location': '武汉', 'guo_biao': '欧V\n'}
+https://www.che168.com/dealer/604102/51973413.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3万公里', 'start_time': '2020年12月', 'pai_liang': '自动/2.9L', 'location': '武汉', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/490687/52019364.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4万公里', 'start_time': '2020年09月', 'pai_liang': '自动/3L', 'location': '苏州', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/402078/50614856.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '6万公里', 'start_time': '2019年05月', 'pai_liang': '自动/3L', 'location': '惠州', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/412388/52010490.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '17.4万公里', 'start_time': '2013年11月', 'pai_liang': '自动/3L', 'location': '昆明', 'guo_biao': '欧V\n'}
+https://www.che168.com/dealer/520649/51993877.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4.11万公里', 'start_time': '2020年11月', 'pai_liang': '自动/3L', 'location': '徐州', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/613903/52064060.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '2.3万公里', 'start_time': '2022年01月', 'pai_liang': '自动/2L', 'location': '成都', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/512120/51919314.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5.2万公里', 'start_time': '2021年07月', 'pai_liang': '自动/2L', 'location': '上海', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/412831/51883784.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4.8万公里', 'start_time': '2022年01月', 'pai_liang': '自动/2L', 'location': '成都', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/608918/51981867.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3万公里', 'start_time': '2020年05月', 'pai_liang': '自动/2L', 'location': '成都', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/601365/52042424.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5.45万公里', 'start_time': '2021年01月', 'pai_liang': '自动/2L', 'location': '苏州', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/536717/51370415.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4万公里', 'start_time': '2021年03月', 'pai_liang': '自动/2.9L', 'location': '广州', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/610201/52016102.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5.1万公里', 'start_time': '2021年04月', 'pai_liang': '自动/2L', 'location': '苏州', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/601246/50758806.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5.2万公里', 'start_time': '2020年08月', 'pai_liang': '自动/3L', 'location': '天津', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/403622/48070319.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5万公里', 'start_time': '2022年08月', 'pai_liang': '自动/3.6L', 'location': '昆明', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/546550/51705651.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '6万公里', 'start_time': '2019年07月', 'pai_liang': '自动/3L', 'location': '台州', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/547441/51664593.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3万公里', 'start_time': '2021年01月', 'pai_liang': '自动/2.9L', 'location': '成都', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/599438/51695503.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4.6万公里', 'start_time': '2021年05月', 'pai_liang': '自动/2L', 'location': '广州', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/545552/51692022.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3.2万公里', 'start_time': '2021年03月', 'pai_liang': '自动/2L', 'location': '南京', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/385875/52013338.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '1.9万公里', 'start_time': '2021年07月', 'pai_liang': '自动/2L', 'location': '嘉兴', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/530243/51936719.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4.5万公里', 'start_time': '2021年11月', 'pai_liang': '自动/2L', 'location': '苏州', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/354056/51922442.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5.8万公里', 'start_time': '2020年11月', 'pai_liang': '自动/2.9L', 'location': '深圳', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/499685/51478315.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4.6万公里', 'start_time': '2021年09月', 'pai_liang': '自动/2L', 'location': '重庆', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/555558/51794516.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3.3万公里', 'start_time': '2020年03月', 'pai_liang': '自动/2L', 'location': '广州', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/521283/52054455.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '1.63万公里', 'start_time': '2016年01月', 'pai_liang': '自动/3L', 'location': '福州', 'guo_biao': '欧V\n'}
+https://www.che168.com/dealer/471393/51974585.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4万公里', 'start_time': '2020年12月', 'pai_liang': '自动/3L', 'location': '广州', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/521644/51945657.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3.88万公里', 'start_time': '2020年05月', 'pai_liang': '自动/2L', 'location': '成都', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/559330/52018682.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '0.04万公里', 'start_time': '2024年08月', 'pai_liang': '自动/2L', 'location': '石家庄', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/554987/51938836.html?pvareaid=110520&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3.6万公里', 'start_time': '2022年02月', 'pai_liang': '自动/2L', 'location': '北京', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/410424/51992317.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '7.8万公里', 'start_time': '2018年11月', 'pai_liang': '自动/2L', 'location': '广州', 'guo_biao': '国V\n'}
+https://www.che168.com/dealer/537970/51398621.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '13万公里', 'start_time': '2018年09月', 'pai_liang': '自动/3L', 'location': '深圳', 'guo_biao': '欧V\n'}
+https://www.che168.com/dealer/606311/52077092.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3.26万公里', 'start_time': '2020年10月', 'pai_liang': '自动/2L', 'location': '宁波', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/209934/51946128.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5.5万公里', 'start_time': '2021年11月', 'pai_liang': '自动/3L', 'location': '金华', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/514928/52073629.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4万公里', 'start_time': '2023年02月', 'pai_liang': '自动/3L', 'location': '合肥', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/230008/52051945.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4.2万公里', 'start_time': '2021年09月', 'pai_liang': '自动/3L', 'location': '深圳', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/617349/52034613.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4万公里', 'start_time': '2020年12月', 'pai_liang': '自动/1.6L', 'location': '重庆', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/544796/50759934.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4万公里', 'start_time': '2019年11月', 'pai_liang': '自动/2L', 'location': '佛山', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/497704/51210035.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5万公里', 'start_time': '2019年10月', 'pai_liang': '自动/2L', 'location': '合肥', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/267410/52075267.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '16万公里', 'start_time': '2018年01月', 'pai_liang': '自动/3L', 'location': '深圳', 'guo_biao': '欧VI\n'}
+https://www.che168.com/dealer/546550/52002659.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5万公里', 'start_time': '2020年12月', 'pai_liang': '自动/3L', 'location': '台州', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/404605/51828968.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3万公里', 'start_time': '2019年12月', 'pai_liang': '自动/3L', 'location': '宁波', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/516015/51963420.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3万公里', 'start_time': '2021年06月', 'pai_liang': '自动/3L', 'location': '宁波', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/613380/52024036.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5.2万公里', 'start_time': '2018年11月', 'pai_liang': '自动/2L', 'location': '宁波', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/283538/51870145.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3万公里', 'start_time': '2021年10月', 'pai_liang': '自动/3L', 'location': '南京', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/615388/51753876.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3.3万公里', 'start_time': '2020年12月', 'pai_liang': '自动/1.6L', 'location': '宁波', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/250176/52013475.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '6万公里', 'start_time': '2020年01月', 'pai_liang': '自动/3L', 'location': '杭州', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/477805/51909619.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '8.3万公里', 'start_time': '2021年06月', 'pai_liang': '自动/2L', 'location': '沈阳', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/224070/52071261.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '8万公里', 'start_time': '2021年09月', 'pai_liang': '自动/3L', 'location': '青岛', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/74966/52020880.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3.6万公里', 'start_time': '2023年06月', 'pai_liang': '自动/5L', 'location': '成都', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/74966/51475198.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '1.3万公里', 'start_time': '2023年01月', 'pai_liang': '自动/3L', 'location': '成都', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/420514/51903129.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3.7万公里', 'start_time': '2019年11月', 'pai_liang': '自动/2L', 'location': '东莞', 'guo_biao': '欧V\n'}
+https://www.che168.com/dealer/617514/52019534.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5.5万公里', 'start_time': '2016年10月', 'pai_liang': '自动/2.3L', 'location': '宁波', 'guo_biao': '国V\n'}
+https://www.che168.com/dealer/429934/51808973.html?pvareaid=110520&userpid=0&usercid=0&offertype=830&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '6.6万公里', 'start_time': '2018年09月', 'pai_liang': '自动/2L', 'location': '沈阳', 'guo_biao': '国V\n'}
+https://www.che168.com/dealer/258977/52074777.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '6.7万公里', 'start_time': '2020年05月', 'pai_liang': '自动/3L', 'location': '石家庄', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/447790/52022154.html?pvareaid=110520&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '2.9万公里', 'start_time': '2022年02月', 'pai_liang': '自动/3L', 'location': '深圳', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/610440/51396342.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5.9万公里', 'start_time': '2021年01月', 'pai_liang': '自动/3L', 'location': '重庆', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/544993/51480165.html?pvareaid=110520&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5.3万公里', 'start_time': '2020年12月', 'pai_liang': '自动/0L', 'location': '北京', 'guo_biao': '-\n'}
+https://www.che168.com/dealer/475727/51984237.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4.7万公里', 'start_time': '2021年07月', 'pai_liang': '自动/3L', 'location': '杭州', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/341092/51760672.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4.4万公里', 'start_time': '2020年11月', 'pai_liang': '自动/3L', 'location': '成都', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/613903/51559218.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3万公里', 'start_time': '2019年12月', 'pai_liang': '自动/2L', 'location': '成都', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/405366/52072214.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5万公里', 'start_time': '2020年11月', 'pai_liang': '自动/2L', 'location': '常州', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/382289/52075742.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '9.1万公里', 'start_time': '2018年05月', 'pai_liang': '自动/3L', 'location': '郑州', 'guo_biao': '欧VI\n'}
+https://www.che168.com/dealer/616921/52011422.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3.9万公里', 'start_time': '2020年12月', 'pai_liang': '自动/2L', 'location': '成都', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/420514/51959086.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3.4万公里', 'start_time': '2021年03月', 'pai_liang': '自动/3L', 'location': '东莞', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/263982/51937912.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3.1万公里', 'start_time': '2023年02月', 'pai_liang': '自动/2L', 'location': '重庆', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/489389/52013492.html?pvareaid=110520&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4.8万公里', 'start_time': '2021年08月', 'pai_liang': '自动/1.5L', 'location': '北京', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/421847/51790714.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5.9万公里', 'start_time': '2020年12月', 'pai_liang': '自动/2L', 'location': '合肥', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/601924/52073750.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '8万公里', 'start_time': '2020年01月', 'pai_liang': '自动/2L', 'location': '昆明', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/617196/52067000.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '11万公里', 'start_time': '2017年08月', 'pai_liang': '自动/2L', 'location': '苏州', 'guo_biao': '国V\n'}
+https://www.che168.com/dealer/421693/51899020.html?pvareaid=110520&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3.3万公里', 'start_time': '2021年02月', 'pai_liang': '自动/2L', 'location': '杭州', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/444255/51973493.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3.4万公里', 'start_time': '2020年03月', 'pai_liang': '自动/2.9L', 'location': '临沂', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/613454/52051655.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4万公里', 'start_time': '2019年12月', 'pai_liang': '自动/2L', 'location': '成都', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/434514/51857800.html?pvareaid=100519&userpid=0&usercid=0&offertype=830&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '11万公里', 'start_time': '2016年12月', 'pai_liang': '自动/2.5L', 'location': '广州', 'guo_biao': '国V\n'}
+https://www.che168.com/dealer/210806/51443096.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4万公里', 'start_time': '2020年08月', 'pai_liang': '自动/2L', 'location': '重庆', 'guo_biao': '欧V\n'}
+https://www.che168.com/dealer/614645/52023955.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3.8万公里', 'start_time': '2020年07月', 'pai_liang': '自动/2L', 'location': '宁波', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/413929/50872218.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3万公里', 'start_time': '2020年07月', 'pai_liang': '自动/3L', 'location': '东莞', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/267410/52039275.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4.3万公里', 'start_time': '2021年05月', 'pai_liang': '自动/3L', 'location': '深圳', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/456844/52031527.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5.1万公里', 'start_time': '2021年09月', 'pai_liang': '自动/3L', 'location': '深圳', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/360241/51983235.html?pvareaid=110520&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4.6万公里', 'start_time': '2021年02月', 'pai_liang': '自动/3L', 'location': '长沙', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/608343/51441409.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5万公里', 'start_time': '2023年02月', 'pai_liang': '自动/2L', 'location': '东莞', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/618381/52064304.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3万公里', 'start_time': '2019年10月', 'pai_liang': '自动/2L', 'location': '成都', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/349179/52012042.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4万公里', 'start_time': '2021年04月', 'pai_liang': '自动/3L', 'location': '南京', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/359664/51984731.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4万公里', 'start_time': '2021年02月', 'pai_liang': '自动/3L', 'location': '深圳', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/385875/51911119.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4万公里', 'start_time': '2021年02月', 'pai_liang': '自动/2L', 'location': '嘉兴', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/613023/51631181.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '0.01万公里', 'start_time': '未上牌', 'pai_liang': '自动/3L', 'location': '上海', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/457990/52000164.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '3.6万公里', 'start_time': '2017年11月', 'pai_liang': '自动/3L', 'location': '青岛', 'guo_biao': '欧VI\n'}
+https://www.che168.com/dealer/615608/51770871.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5万公里', 'start_time': '2021年01月', 'pai_liang': '自动/2L', 'location': '成都', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/452320/52052731.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '28万公里', 'start_time': '2020年04月', 'pai_liang': '自动/3L', 'location': '潍坊', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/314407/51778339.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4万公里', 'start_time': '2022年02月', 'pai_liang': '自动/2L', 'location': '长沙', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/413929/51927345.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4万公里', 'start_time': '2021年03月', 'pai_liang': '自动/3L', 'location': '东莞', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/476526/51934482.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '5.6万公里', 'start_time': '2019年04月', 'pai_liang': '自动/3L', 'location': '成都', 'guo_biao': '欧VI\n'}
+https://www.che168.com/dealer/499537/51018891.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4.7万公里', 'start_time': '2020年12月', 'pai_liang': '自动/3L', 'location': '昆明', 'guo_biao': '国VI\n'}
+https://www.che168.com/dealer/554043/52032615.html?pvareaid=100519&userpid=0&usercid=0&offertype=&offertag=0&activitycartype=0&fromsxmlist=0&platfrom=36
+{'li_cheng': '4.2万公里', 'start_time': '2021年11月', 'pai_liang': '自动/2L', 'location': '成都', 'guo_biao': '国VI\n'}
+
+Process finished with exit code 0

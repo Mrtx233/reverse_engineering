@@ -1,0 +1,26 @@
+
+scrapy调度器讲解的目的:
+    优秀的程序设计. 如果有一天你也遇到了类似的需求. 可以做参考.
+
+1. 引擎在初始化的时候.会从settings里面读取调度器的类
+    调度器的类是配置进来的.
+2. 默认的调度器就是: scrapy.core.scheduler.Scheduler
+
+3. 引擎在open_spider的时候. 自动创建Scheduler的对象
+
+4. 看看初始化的调度器里面有什么
+    1. 调度器对象里面记录了
+        过滤器    默认的过滤器是: scrapy.dupefilters.RFPDupeFilter
+            创建过滤器的时候. 过滤器里面:
+                fingerprints -> set()
+        初始化时, 记录的各种队列的类 -> 经过open之后. -> 各种队列被创建
+
+    2. 引擎中关键的方法:
+        _schedule_request(request) 把请求对象丢给调度器去调度 -> enqueue_request(request)
+        enqueue_request(request)  把请求对象进行判断, 是否在过滤器中存在
+        如果存在, 则不进队列
+        如果不存在, 则记录在队列. 并在过滤器中的set()集合记录好已经访问过的请求对象
+
+        _next_request_from_scheduler()  从调度器中获取到下一个请求对象
+            调度器直接从队列里拿到一个请求对象返回即可, 调度器中关键方法: next_request()
+

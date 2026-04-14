@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Content-Language" content="zh-cn">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>登录</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="applicable-device" content="pc">
+    <link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.woaidu.cc/login.php" >
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link href="/css/v2/common.css" rel="stylesheet"/>
+<script src="/9OgKKEld/4j3QN8ZzzS.js"></script>
+    <link href="/css/list.css" rel="stylesheet"/>
+    <script type="text/javascript" src="/js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="/js/submit.js"></script>
+        <script type="text/javascript">
+        function browserRedirect() {
+        var sUserAgent= navigator.userAgent.toLowerCase();
+        var bIsIpad= sUserAgent.match(/ipad/i) == "ipad";
+        var bIsIphoneOs= sUserAgent.match(/iphone os/i) == "iphone os";
+        var bIsMidp= sUserAgent.match(/midp/i) == "midp";
+        var bIsUc7= sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+        var bIsUc= sUserAgent.match(/ucweb/i) == "ucweb";
+        var bIsAndroid= sUserAgent.match(/android/i) == "android";
+        var bIsCE= sUserAgent.match(/windows ce/i) == "windows ce";
+        var bIsWM= sUserAgent.match(/windows mobile/i) == "windows mobile";
+        if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
+                window.location= 'http://m.woaidu.cc/login.php';
+        } else {
+        }
+        }
+        browserRedirect();
+        </script>
+</head>
+<body>
+<div class="header">
+    <div class="widthWrap head-wrap">
+        <!-- logo 搜索 登录 -->
+        <div class="header-top widthWrap">
+            <!-- logo -->
+            <a href="/" class="head-left fl mtop">
+                <img src="/images/p_logo.png" alt="">
+            </a>
+            <ul class="head-right fr mtop">
+                <!-- 搜索 -->
+                <li class="head-search">
+                    <form id="book_search_form_header" action="/search" method="get">
+                    <input class="fl" name="kw" type="text" placeholder="搜索书名/作者" value="" >
+                    <a class="searchIcon fr" id="spanSearch" onclick="document.getElementById('book_search_form_header').submit();">
+                        <img src="/images/v2/home-icon-search.png" alt="" onclick="document.getElementById('book_search_form_header').submit();" >
+                    </a>
+                    </form>
+                </li>
+                <li>
+                <img style="text-align: right;width: 42px;height: 42px;" src="/images/m_logo.png" />&nbsp;&nbsp;&nbsp;
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- nav 头部导航 -->
+    <!-- nav 头部导航 -->
+    <div class="head-nav">
+        <div class="navul widthWrap">
+            <ul class="h-nav">
+                     <li  class="activeNav h-nav-first"">
+                        <a href="/">
+                            <span>首页</span>
+                        </a>
+                    </li>
+                     <li ">
+                        <a href="/rank">
+                            <span>热门</span>
+                        </a>
+                    </li>
+                     <li ">
+                        <a href="/search">
+                            <span>搜索</span>
+                        </a>
+                    </li>
+                     <li ">
+                        <a href="/info">
+                            <span>资讯</span>
+                        </a>
+                    </li>
+                     <li ">
+                        <a href="http://www.woaidu.cc">
+                            <span>文学</span>
+                        </a>
+                    </li>
+                     <li ">
+                        <a href="http://www.bingfengzw.com">
+                            <span>电子书</span>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="main">
+    <div class="wrap980">
+        <br /><br />
+        <form name="frmlogin" method="post" action="/login.php">
+            <table width="100%" align="center" >
+                <caption>用户登录</caption>
+                <tr align="center">
+                    <td>
+                        <table width="100%" class="hide" border="0" cellspacing="0" cellpadding="0">
+                            <tr height="25">
+                                <td width="45%" align="right" valign="middle">用户名：</td>
+                                <td width="55%"><input type="text" class="text" size="20" maxlength="30" style="width:120px" name="LoginForm[username]" onKeyPress="javascript: if (event.keyCode === 32) return false;" ></td>
+                            </tr>
+                            <tr height="25">
+                                <td align="right" valign="middle">密　码：</td>
+                                <td><input type="password" class="text" size="20" maxlength="30" style="width:120px" name="LoginForm[password]"></td>
+                            </tr>
+<tr height="25">
+      <td  align="right" valign="middle">验证码：</td>
+    <td><input id="_17mb_code" name="LoginForm[captcha]" class="login_name" style="width:120px" /><img id="showcode" src="" onclick="reloadcode()" width="100px" style="vertical-align:middle"/> <a href="javascript:;" onclick="reloadcode()" class="blue">看不清，点击刷新</a></td>
+</tr>
+
+
+
+                            <tr height="25">
+                                <td><input type="hidden" name="action" value="login"></td>
+                                <td><input type="submit" class="button" value="&nbsp;登&nbsp;&nbsp;录&nbsp;" name="submit">　　<a href="/register.php">点击注册</a></td>
+                            </tr>
+
+
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </form><br /><br />
+    </div>
+</div>
+<!--底部信息-->
+<footer>
+    <div class="keepRecord">
+        <div class="keepRecord-detail widthWrap">
+            <p>
+                <span> &copy; 2012-2019 我爱读电子书</span>
+            </p>
+            <p>如果您认为我爱读的内容侵犯了您的版权，联系我们将在第一时间将该链接删除。</p>
+            <p>我爱读电子书的Email: 将#改为@即可
+          		<script>
+			tj();
+			</script>
+            </p>
+        </div>
+    </div>
+</footer>
+    <script>
+    var d = document;
+    if(d.ready === undefined) {
+        var ie = !!(window.attachEvent && !window.opera);
+        var wk = /webkit\/(\d+)/i.test(navigator.userAgent) && (RegExp.$1 < 525);
+        var fn = [];
+        var run = function () { for (var i = 0; i < fn.length; i++) fn[i](); };
+        d.ready = function (f) {
+            if (!ie && !wk && d.addEventListener)
+              return d.addEventListener('DOMContentLoaded', f, false);
+            if (fn.push(f) > 1) return;
+            if (ie)
+              (function () {
+                try { d.documentElement.doScroll('left'); run(); }
+                catch (err) { setTimeout(arguments.callee, 0); }
+              })();
+            else if (wk)
+              var t = setInterval(function () {
+                if (/^(loaded|complete)$/.test(d.readyState))
+                  clearInterval(t), run();
+              }, 0);
+        };
+    }
+
+    d.ready(reloadcode);
+
+    function reloadcode(){
+        var verify=document.getElementById('showcode');
+        verify.setAttribute('src', "/code.php?"+Math.random());
+    }    </script>
+</body>
+</html>
+
+
