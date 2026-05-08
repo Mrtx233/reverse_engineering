@@ -6,7 +6,7 @@ js语法记不住的, 官方文档:  https://developer.mozilla.org/zh-CN/docs/We
 
 ​		那么既然JS是可以运行在浏览器上的脚本. 并且, 我们知道本质上, 浏览器是执行HTML程序的. 那么如何在HTML中引入JS呢?
 
-​		方案一, 直接在<script>标签中引入编写js代码
+​		方案一, 直接在<//script>标签中引入编写js代码
 
 ​		<img src="image-20210826150049916.png" alt="image-20210826150049916" style="zoom:50%;" />
 
